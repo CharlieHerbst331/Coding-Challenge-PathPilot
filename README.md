@@ -5,7 +5,7 @@
    ```
    ./start.sh
    ```
-3. Open your browser and navigate to: http://localhost:5002
+3. Open your browser and navigate to your localhost
 
 ## Features
 
