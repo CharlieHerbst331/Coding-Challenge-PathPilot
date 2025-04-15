@@ -1,114 +1,105 @@
-# User Journey Analysis Coding Challenge
+# PathPilot - User Journey Analysis
 
-## Background
+PathPilot is a web application that analyzes user journey data to identify patterns leading to subscription upgrades or cancellations. It provides visual timeline representations and creates "fingerprints" to predict user behavior.
 
-Our product team captures detailed user session data to understand customer behavior patterns that lead to subscription upgrades or cancellations. We have a collection of JSON files containing anonymized user journey recordings, with each file representing a different user session. These recordings contain timestamped actions, user status flags, and detailed descriptions of user interactions.
+## Quick Start
 
-We need to build tools that can help us analyze these patterns to proactively identify users at risk of churning and recognize opportunities to encourage upgrades.
+1. Clone the repository
+2. Run the start script:
+   ```
+   ./start.sh
+   ```
+3. Open your browser and navigate to: http://localhost:5000
 
----
+## Features
 
-## Challenge Overview
+- **Journey Timeline Visualization**: Interactive timeline showing the progression of each user journey with detailed step information
+- **AI-Powered Analysis**: Uses OpenAI's GPT-4 to analyze journey patterns and provide insights
+- **User Journey Fingerprinting**: Creates fingerprints to identify key patterns that precede upgrades or cancellations
+- **Outcome Prediction**: Predicts whether a user is likely to upgrade or cancel their subscription
+- **Modern UI/UX**: Clean, intuitive interface with responsive design
 
-Your task is to develop a solution that:
+## Installation
 
-- Ingests and processes multiple user journey JSON files
-- Generates visual timeline representations of each user journey that can be compared
-- Creates a "fingerprint" or profile for each journey type to predict whether a user is likely to upgrade or cancel
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd path-pilot
+```
 
----
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## Requirements
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-### 1. Data Processing
+4. Set up environment variables:
+Create a `.env` file in the root directory with your OpenAI API key:
+```
+OPENAI_API_KEY=your_openai_api_key
+```
 
-- Parse the provided JSON files containing user journey recordings
-- Clean and normalize the data for analysis
-- Extract meaningful patterns and metrics from the user journeys
+## Running the Application
 
-### 2. Timeline Visualization
+1. Start the Flask development server:
+```bash
+python app.py
+```
 
-- Create a visual representation showing the progression of each user journey
-- Design the visualization to allow easy comparison between different journey types
-- Include timestamps, user actions, and status changes in the visualization
-- The timeline should clearly distinguish between different journey stages:
-  - `converted`
-  - `conversion_at_risk`
-  - `churned`
+2. Open a web browser and navigate to:
+```
+http://localhost:5000
+```
 
-### 3. User Journey Fingerprinting
+## Approach and Methodology
 
-- Develop a method to profile different types of user journeys
-- Identify key indicators or patterns that precede subscription upgrades or cancellations
-- Create a model or algorithm that can classify a user journey as likely to result in upgrade or cancellation
-- Provide metrics on the accuracy of your classification method
+### Data Processing
 
----
+The application processes JSON files containing user journey recordings by:
+1. Extracting and normalizing steps from multiple recording chunks
+2. Sorting steps chronologically by date and time
+3. Grouping steps by status (non-converted, attempted_conversion, converted, etc.)
 
-## Technical Requirements
+### Journey Visualization
 
-- Python is preferred, but other languages are acceptable
-- Include clear documentation and instructions for running your code
-- Write modular, maintainable code with appropriate comments
-- Include appropriate error handling and edge case management
-- Optimize for performance when processing multiple files
+The timeline visualization:
+- Displays each step in chronological order
+- Color-codes steps based on their status
+- Provides expandable details for each step
+- Highlights critical decision points
 
----
+### Journey Fingerprinting
 
-## Deliverables
+The fingerprinting process:
+1. Extracts key metrics from user journeys (step count, status distribution, time spent)
+2. Identifies language patterns associated with upgrades and cancellations
+3. Analyzes the sequence and timing of status changes
+4. Creates a compact representation of journey characteristics
 
-- **Source code** for your solution
-- A `README.md` file that includes:
-  - A clear explanation of your approach to solving the problem
-  - Your methodology for journey fingerprinting and classification
-  - Instructions for running the code
-  - Example outputs from your visualization
-  - Discussion of any challenges faced and how you overcame them
-  - Thoughts on how this solution could be improved or expanded
-  - Any visualization outputs or sample results
-- **Unit tests** demonstrating the correctness of your solution
+### Outcome Prediction
 
----
+The prediction model:
+- Uses a weighted scoring system based on status distribution and indicators
+- Analyzes the ratio of upgrade vs. cancellation language patterns
+- Evaluates timing and sequence of conversion attempts
+- Provides a confidence score for predictions
 
+## Running Tests
 
-##Build out specifications (Very Important!)
+To run the unit tests:
+```bash
+python -m unittest discover tests
+```
 
-this implementation should be a web app with dropdown bars for each individual user journey, in each dropdown bar should outline the steps the user has went htrough and include the analysis by ChatGPT in each section. This should incorporate modern UI/UX and styling and should have clean and intuitive flow. Also incorporate the fingerprinting into this web app.
+## Future Improvements
 
-
-## Data Format
-
-You will receive a zip file containing multiple JSON files. Each file represents user session recordings with the following structure:
-
-```json
-{
-  "export-[identifier].ph-recording-chunk-summaries": {
-    "steps": [
-      {
-        "label": "Action Description",
-        "date": "YYYY-MM-DD",
-        "status": "converted|non-converted|conversion_at_risk|churned",
-        "recordingReel": {
-          "start": "MM:SS.S",
-          "end": "MM:SS.S",
-          "details": "Detailed description of user action",
-          "filename": "export-[identifier].ph-recording-chunk-summaries.json",
-          "start_ms_since": 12345,
-          "end_ms_since": 67890,
-          "recording_id": "export-[identifier].ph-recording-chunk-summaries"
-        }
-      }
-      // Additional steps...
-    ],
-    "usage_metadata": {
-      "input_tokens": 12345,
-      "output_tokens": 6789,
-      "total_tokens": 19234
-    },
-    "_order": 0
-  }
-  // Additional recording chunks...
-}
-
-
-
+- Implement machine learning models trained on larger datasets
+- Add more advanced visualization options (heatmaps, comparison views)
+- Include real-time analysis of ongoing user journeys
+- Expand the API for integration with other systems
+- Add user segmentation and cohort analysis 

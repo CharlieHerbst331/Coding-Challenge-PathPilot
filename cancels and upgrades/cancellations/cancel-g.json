@@ -1,0 +1,298 @@
+{
+  "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "New Pro Subscription Activation",
+        "date": "2024-12-05",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:03.7",
+          "end": "00:28.2",
+          "details": "User completed the Pro subscription signup process and received a welcome confirmation. They immediately began exploring the interface, clicking through top-level navigation items, suggesting this was a new user to the platform. Analytics showed this was a first-day subscriber who had upgraded from the free trial without completing the optional onboarding tutorial.",
+          "filename": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries.json",
+          "start_ms_since": 3700,
+          "end_ms_since": 28200,
+          "recording_id": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "First Project Creation Attempt",
+        "date": "2024-12-05",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:32.5",
+          "end": "02:47.3",
+          "details": "User clicked 'Create New Project' and was presented with multiple project type options. They initially selected 'Custom Project' but then switched to 'Basic Template' after viewing the advanced configuration options. When faced with template categories, user spent approximately 45 seconds scrolling through options before selecting 'Simple Project'. User attempted to rename default sections but had difficulty with the inline editing functionality.",
+          "filename": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries.json",
+          "start_ms_since": 32500,
+          "end_ms_since": 167300,
+          "recording_id": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Help Documentation Access",
+        "date": "2024-12-05",
+        "status": "converted",
+        "recordingReel": {
+          "start": "02:53.8",
+          "end": "03:52.6",
+          "details": "User clicked the help icon and searched for 'getting started guide'. They opened three different help articles and spent approximately 1 minute reading. Browser focus shifted between the help documentation and the application several times, suggesting the user was attempting to follow instructions.",
+          "filename": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries.json",
+          "start_ms_since": 173800,
+          "end_ms_since": 232600,
+          "recording_id": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Feature Exploration with Errors",
+        "date": "2024-12-05",
+        "status": "converted",
+        "recordingReel": {
+          "start": "04:05.2",
+          "end": "07:23.9",
+          "details": "User attempted to use several advanced features including custom fields, workflow rules, and integration settings. Multiple error messages appeared when they tried to configure these features, with messages like 'Invalid configuration' and 'Required field missing'. User had to cancel out of several configuration dialogs without saving changes. Mouse movement patterns showed increasing erratic behavior, suggesting frustration.",
+          "filename": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries.json",
+          "start_ms_since": 245200,
+          "end_ms_since": 443900,
+          "recording_id": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Video Tutorial Attempt",
+        "date": "2024-12-05",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "07:30.4",
+          "end": "09:45.7",
+          "details": "User navigated to the 'Learning Center' and started a video tutorial on 'Project Setup Essentials'. They watched approximately 2 minutes of the 15-minute video before pausing and returning to the project. When attempting to follow the steps from the video, user encountered different interface screens than those shown in the tutorial (suggesting the tutorial might be outdated).",
+          "filename": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries.json",
+          "start_ms_since": 450400,
+          "end_ms_since": 585700,
+          "recording_id": "export-2163a7b8-cd94-65ef-27gh-8i32jk41lm5n.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 16325,
+      "output_tokens": 3152,
+      "total_tokens": 19477
+    },
+    "_order": 0
+  },
+  "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Limited Second Session Activity",
+        "date": "2024-12-07",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:04.2",
+          "end": "01:12.8",
+          "details": "User logged in two days later and returned to their incomplete project. Their session showed limited productive activity, with most actions being exploratory rather than constructive. User repeatedly opened and closed various feature panels without making substantial changes to the project. Total active work time was only 19 minutes despite being logged in for 68 minutes.",
+          "filename": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries.json",
+          "start_ms_since": 4200,
+          "end_ms_since": 72800,
+          "recording_id": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Support Chat Initiation",
+        "date": "2024-12-07",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:15.6",
+          "end": "02:48.3",
+          "details": "User opened the support chat widget and typed: 'I'm finding this really complicated. Is there a simpler way to just create a basic project?' The support agent responded with links to beginner tutorials and offered to walk through the process. User responded: 'I've tried the tutorials but there are so many options and settings. I just need something very straightforward. Does your system have a simple mode?'",
+          "filename": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries.json",
+          "start_ms_since": 75600,
+          "end_ms_since": 168300,
+          "recording_id": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Simplified Template Suggestion",
+        "date": "2024-12-07",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:52.7",
+          "end": "04:18.5",
+          "details": "Support agent suggested using the 'Quick Start' template pack designed for beginners. User followed the link provided and attempted to use one of these templates. However, they still encountered multiple configuration screens with technical terminology. User sent another message to support: 'Even the simple template has too many options. I think this might be too advanced for what I need.'",
+          "filename": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries.json",
+          "start_ms_since": 172700,
+          "end_ms_since": 258500,
+          "recording_id": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Competitor Research (External)",
+        "date": "2024-12-07",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:25.3",
+          "end": "05:48.9",
+          "details": "While waiting for support response, browser integration data showed user opened a new tab and searched for 'easy to use alternatives to [product name]'. They visited three competitor websites, focusing on pages that mentioned 'simple interface' and 'beginner-friendly'. On one competitor site, they watched a 2-minute demo video showcasing a simplified workflow.",
+          "filename": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries.json",
+          "start_ms_since": 265300,
+          "end_ms_since": 348900,
+          "recording_id": "export-2163b8c9-de05-76fg-38hi-9j43kl52mn6o.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 18492,
+      "output_tokens": 3268,
+      "total_tokens": 21760
+    },
+    "_order": 1
+  },
+  "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Navigated to Subscription Management",
+        "date": "2024-12-09",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:02.8",
+          "end": "00:05.3",
+          "details": "User logged in after another two-day gap and immediately navigated to 'Account Settings' from the dropdown menu, then selected 'Subscription & Billing' from the sidebar. No project work was attempted during this session.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2800,
+          "end_ms_since": 5300,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Cancel Subscription' Button",
+        "date": "2024-12-09",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:08.7",
+          "end": "00:08.7",
+          "details": "After briefly reviewing their subscription details, user scrolled to the bottom of the page and clicked the 'Cancel Subscription' button, initiating the cancellation flow.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 8700,
+          "end_ms_since": 8700,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2024-12-09",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:12.5",
+          "end": "00:14.2",
+          "details": "In the cancellation modal, user selected 'Too difficult to use' from the dropdown menu of cancellation reasons. This option was selected without hesitation, suggesting it clearly matched their experience.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 12500,
+          "end_ms_since": 14200,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Offered Guided Onboarding Retention Option",
+        "date": "2024-12-09",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:16.8",
+          "end": "00:35.3",
+          "details": "Based on the 'Too difficult to use' reason, the system displayed a specialized retention offer: 'We understand getting started can be challenging. Would you like a free 30-minute 1-on-1 session with a product specialist to help you set up your first project? We can also extend your trial by 14 days at no charge.' Buttons included 'Schedule Onboarding Session', 'Show Me Simplified Templates', and 'Continue with Cancellation'.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 16800,
+          "end_ms_since": 35300,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Show Me Simplified Templates'",
+        "date": "2024-12-09",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:38.9",
+          "end": "01:25.7",
+          "details": "User clicked the 'Show Me Simplified Templates' option. This opened a new modal with a curated set of beginner-friendly templates. User browsed through several options but did not select any of them. After approximately 45 seconds, they closed the template browser and returned to the cancellation flow.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 38900,
+          "end_ms_since": 85700,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Continue with Cancellation'",
+        "date": "2024-12-09",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:28.3",
+          "end": "01:28.3",
+          "details": "After reviewing the simplified templates, user returned to the cancellation modal and clicked 'Continue with Cancellation', declining both the 1-on-1 onboarding and simplified template options.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 88300,
+          "end_ms_since": 88300,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Provided Detailed Usability Feedback",
+        "date": "2024-12-09",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:32.6",
+          "end": "02:48.9",
+          "details": "In the feedback form, user wrote a detailed explanation: 'I signed up for Pro thinking it would help me organize my small business projects, but I've spent more time trying to figure out the system than doing actual work. There are too many options, settings, and technical terms that I don't understand. The templates are still too complex and have features I don't need. Even after watching tutorials, I couldn't create a simple project without getting confused. I need something more straightforward with fewer steps to get started. The support staff was helpful but the product itself is just more powerful than what I need.'",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 92600,
+          "end_ms_since": 168900,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Cancellation Confirmed",
+        "date": "2024-12-09",
+        "status": "churned",
+        "recordingReel": {
+          "start": "02:52.1",
+          "end": "02:57.6",
+          "details": "System displayed a confirmation message: 'Your Pro subscription has been cancelled. Since you're within the 7-day money-back guarantee period, you'll receive a full refund within 3-5 business days.' User clicked 'Close' to dismiss the notification.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 172100,
+          "end_ms_since": 177600,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Competitor Signup (External)",
+        "date": "2024-12-10",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:00.0",
+          "end": "00:00.0",
+          "details": "Browser integration data showed that one day after cancellation, the user signed up for an account with one of the competitors they had researched previously - a platform marketing itself as 'simple project management for small teams' with 'no learning curve'.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 0,
+          "end_ms_since": 0,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Simplicity-Focused Survey",
+        "date": "2024-12-15",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:00.0",
+          "end": "00:00.0",
+          "details": "System sent a targeted follow-up email with the subject 'Help us make [Product] more user-friendly'. The email acknowledged the user's cancellation reason and invited them to participate in a usability research session in exchange for a $50 gift card. No response data was recorded within the tracking period.",
+          "filename": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries.json",
+          "start_ms_since": 0,
+          "end_ms_since": 0,
+          "recording_id": "export-2163c9d0-ef16-87gh-49ij-0k54lm63no7p.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 26387,
+      "output_tokens": 5142,
+      "total_tokens": 31529
+    },
+    "_order": 2
+  }
+}

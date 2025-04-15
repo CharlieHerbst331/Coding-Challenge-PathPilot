@@ -1,0 +1,284 @@
+{
+  "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "First Login After 45 Days",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:02.8",
+          "end": "00:05.3",
+          "details": "User logged in for the first time in 45 days. System displayed a welcome back message. Analytics data shows this is a Pro subscriber who has been paying for 6 months but has only logged in 8 times total during this period.",
+          "filename": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2800,
+          "end_ms_since": 5300,
+          "recording_id": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Dismissed Unread Notifications",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:06.7",
+          "end": "00:07.9",
+          "details": "User had 12 unread system notifications including feature updates and usage tips. Without opening any of them, user clicked the 'Mark All as Read' button, dismissing all notifications at once.",
+          "filename": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 6700,
+          "end_ms_since": 7900,
+          "recording_id": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Project Dashboard",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:10.5",
+          "end": "00:32.6",
+          "details": "User navigated to the project dashboard which showed 3 inactive projects, with the most recent one last modified 45 days ago. All projects showed low completion percentages (15-30%). User didn't open any of the existing projects.",
+          "filename": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 10500,
+          "end_ms_since": 32600,
+          "recording_id": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Renewal Notification",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:34.2",
+          "end": "00:38.7",
+          "details": "A notification appeared informing the user that their Pro subscription would automatically renew in 3 days. The notification displayed the renewal amount and included buttons for 'Manage Subscription' and 'Dismiss'.",
+          "filename": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 34200,
+          "end_ms_since": 38700,
+          "recording_id": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Manage Subscription'",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:42.3",
+          "end": "00:42.3",
+          "details": "User clicked the 'Manage Subscription' button in the renewal notification, which directed them to the subscription management page showing their current Pro plan, billing cycle, and payment method.",
+          "filename": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 42300,
+          "end_ms_since": 42300,
+          "recording_id": "export-7215d3a4-ef67-21hg-93ab-8c41de23kl9f.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 14583,
+      "output_tokens": 2748,
+      "total_tokens": 17331
+    },
+    "_order": 0
+  },
+  "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Viewed Usage Analytics Dashboard",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:03.9",
+          "end": "00:58.2",
+          "details": "From the subscription page, user navigated to 'Usage Analytics'. The dashboard displayed extremely low usage metrics with only 8 hours of total platform time over 6 months of subscription. Charts showed that 95% of the Pro features had never been accessed, and the user had utilized only 3% of their monthly quota on average.",
+          "filename": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries.json",
+          "start_ms_since": 3900,
+          "end_ms_since": 58200,
+          "recording_id": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Calculated Cost Per Use",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:02.5",
+          "end": "01:14.3",
+          "details": "User opened the system calculator and performed calculations, dividing their total subscription cost by number of logins. Based on their inputs, each login session had cost approximately $18.75 over the subscription period.",
+          "filename": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries.json",
+          "start_ms_since": 62500,
+          "end_ms_since": 74300,
+          "recording_id": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Navigated to Subscription Cancellation Page",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:20.7",
+          "end": "01:22.1",
+          "details": "User returned to the subscription management page and clicked on the 'Cancel Subscription' link at the bottom of the page, initiating the cancellation flow.",
+          "filename": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries.json",
+          "start_ms_since": 80700,
+          "end_ms_since": 82100,
+          "recording_id": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Initial Cancellation Modal",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:23.4",
+          "end": "01:35.9",
+          "details": "A modal appeared with the title 'We'll Miss You!' explaining the Pro features that would become unavailable upon cancellation. The modal included a required dropdown for selecting a cancellation reason and buttons for 'Keep My Subscription' and 'Continue'.",
+          "filename": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries.json",
+          "start_ms_since": 83400,
+          "end_ms_since": 95900,
+          "recording_id": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:38.2",
+          "end": "01:40.6",
+          "details": "User expanded the cancellation reason dropdown and selected 'Not using it enough to justify the cost' from the available options that included 'Too expensive', 'Missing features', 'Technical issues', 'Found an alternative', and 'Other'.",
+          "filename": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries.json",
+          "start_ms_since": 98200,
+          "end_ms_since": 100600,
+          "recording_id": "export-7215e4b5-fg78-32ih-04bc-9d52ef34lm0g.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 17856,
+      "output_tokens": 3281,
+      "total_tokens": 21137
+    },
+    "_order": 1
+  },
+  "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Presented with 'Pause' Retention Offer",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:02.1",
+          "end": "00:18.5",
+          "details": "After selecting the low usage reason, the system displayed a specialized retention offer: 'Not using it enough? Instead of cancelling, you can pause your subscription for up to 3 months. When you're ready to use it again, resume with all your projects intact.' Buttons included 'Pause My Subscription', 'Switch to Annual Plan (Save 20%)', and 'Continue with Cancellation'.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2100,
+          "end_ms_since": 18500,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Expanded Pause Subscription Details",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:20.7",
+          "end": "00:42.3",
+          "details": "User clicked on 'How does pausing work?' which expanded an information panel explaining: 'Your subscription will be paused immediately. You'll have view-only access to your projects. No charges during the pause period. Resume anytime with one click to restore full Pro access.' User spent approximately 22 seconds reading this information.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 20700,
+          "end_ms_since": 42300,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Considered Annual Plan Option",
+        "date": "2024-09-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:45.9",
+          "end": "00:52.4",
+          "details": "User hovered over the 'Switch to Annual Plan' button and a tooltip appeared showing the price comparison between monthly and annual billing. The tooltip indicated they would save $107.40 annually by switching to yearly billing.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 45900,
+          "end_ms_since": 52400,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Continue with Cancellation'",
+        "date": "2024-09-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:58.6",
+          "end": "00:58.6",
+          "details": "After considering both retention options, user clicked 'Continue with Cancellation', rejecting both the pause subscription and annual plan offers.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 58600,
+          "end_ms_since": 58600,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Provided Detailed Feedback",
+        "date": "2024-09-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:02.8",
+          "end": "01:45.3",
+          "details": "In the feedback form, user wrote: 'The product is great but I simply don't have enough projects to justify the monthly cost. I've only used it 8 times in 6 months. I might consider coming back if there was a pay-per-project option or a much cheaper tier with limited monthly usage (e.g. 5 projects per month). The pause option is nice but I don't foresee needing the tool regularly in the near future.'",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 62800,
+          "end_ms_since": 105300,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Cancellation Confirmation",
+        "date": "2024-09-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:48.7",
+          "end": "01:56.2",
+          "details": "System displayed a confirmation message stating: 'Your Pro subscription has been cancelled. You will continue to have access to Pro features until September 15, 2024. After that, your account will automatically switch to the Free plan.' User clicked 'Close' to dismiss the notification.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 108700,
+          "end_ms_since": 116200,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Post-Cancellation Page",
+        "date": "2024-09-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:57.9",
+          "end": "02:15.4",
+          "details": "User was returned to the subscription page now showing 'Current Plan: Pro (Cancelling on September 15, 2024)'. A banner displayed information about what would happen after downgrade to Free plan, with a prominent 'Reactivate Subscription' button. User did not click reactivate and logged out shortly after.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 117900,
+          "end_ms_since": 135400,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "No Return Activity",
+        "date": "2024-09-15 to 2024-10-15",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:00.0",
+          "end": "00:00.0",
+          "details": "Analytics data shows that after the cancellation took effect on September 15, the user did not log back into the platform for at least 30 days, confirming the cancellation decision was final.",
+          "filename": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries.json",
+          "start_ms_since": 0,
+          "end_ms_since": 0,
+          "recording_id": "export-7215f5c6-gh89-43ji-15cd-0e63fg45mn1h.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 24372,
+      "output_tokens": 4582,
+      "total_tokens": 28954
+    },
+    "_order": 2
+  }
+}

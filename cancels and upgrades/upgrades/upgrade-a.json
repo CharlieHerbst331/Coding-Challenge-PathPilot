@@ -1,0 +1,242 @@
+{
+  "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Click 'Get Started' (Initiate Free Trial Sign-Up)",
+        "date": "2023-11-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:32.4",
+          "end": "00:32.4",
+          "details": "The user clicks on the 'Get Started' button in the header navigation. This initiates the free trial sign-up process.",
+          "filename": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 32400,
+          "end_ms_since": 32400,
+          "recording_id": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Click 'Sign up with Email' in Modal",
+        "date": "2023-11-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:35.6",
+          "end": "00:35.6",
+          "details": "After the 'Get Started' click, a sign-up modal appears. The user selects the 'Sign up with Email' option instead of social logins.",
+          "filename": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 35600,
+          "end_ms_since": 35600,
+          "recording_id": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Features Comparison Page",
+        "date": "2023-11-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "08:45.2",
+          "end": "08:45.2",
+          "details": "The interface shows the user navigating to a features comparison page showing 'Basic', 'Plus', and 'Business' plan options with their respective features and pricing.",
+          "filename": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 525200,
+          "end_ms_since": 525200,
+          "recording_id": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Toggled Between Monthly and Annual Pricing",
+        "date": "2023-11-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "09:12.7",
+          "end": "09:13.5",
+          "details": "User toggles between monthly and annual pricing options, showing a clear interest in comparing the cost differences. The annual plan shows a '20% savings' badge which the user appears to focus on.",
+          "filename": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 552700,
+          "end_ms_since": 553500,
+          "recording_id": "export-0195c7d0-b2ee-859c-9ebb-11a03658317d.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 8543,
+      "output_tokens": 3298,
+      "total_tokens": 11841
+    },
+    "_order": 0
+  },
+  "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Viewed Resource Limit Warning",
+        "date": "2023-11-18",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "32:40.5",
+          "end": "32:43.2",
+          "details": "User encountered a resource limit warning stating '80% of your storage used - upgrade to Plus for more space'. User spent several seconds looking at this notification.",
+          "filename": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1960500,
+          "end_ms_since": 1963200,
+          "recording_id": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Learn More' on Storage Warning",
+        "date": "2023-11-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "32:44.8",
+          "end": "32:45.1",
+          "details": "User clicked the 'Learn More' link on the storage limit warning. This action opened a modal showing storage upgrades available on different plans.",
+          "filename": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1964800,
+          "end_ms_since": 1965100,
+          "recording_id": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'See Plans' Button",
+        "date": "2023-11-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "33:02.3",
+          "end": "33:02.7",
+          "details": "After reviewing the storage information, user clicked on the 'See Plans' button which navigated to the subscription plans page. This shows continued interest in exploring upgrade options.",
+          "filename": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1982300,
+          "end_ms_since": 1982700,
+          "recording_id": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Plus' Button",
+        "date": "2023-11-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "35:19.5",
+          "end": "35:19.8",
+          "details": "User clicked on the 'Upgrade to Plus' button on the pricing page. However, after a brief loading indicator, the user returned to the dashboard without completing payment, suggesting an abandoned checkout flow.",
+          "filename": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2119500,
+          "end_ms_since": 2119800,
+          "recording_id": "export-0195c8ef-9685-8408-8804-5d91dd3efb8b.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 20875,
+      "output_tokens": 3289,
+      "total_tokens": 24164
+    },
+    "_order": 1
+  },
+  "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Opened User Menu",
+        "date": "2023-11-20",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:08.9",
+          "end": "00:09.6",
+          "details": "User clicked on their profile avatar in the top right corner to expand the user menu dropdown. This indicates intent to access personal account options.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 9600,
+          "start_ms_since": 8900,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Billing & Plans' from Menu",
+        "date": "2023-11-20",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:10.2",
+          "end": "00:11.8",
+          "details": "From the expanded user menu, the user selected the 'Billing & Plans' option. The interface transitioned to the account billing section showing current subscription status and available plans.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 11800,
+          "start_ms_since": 10200,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Annual Billing Option",
+        "date": "2023-11-20",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:25.3",
+          "end": "00:25.3",
+          "details": "User selected the 'Annual' billing toggle option which updated the displayed prices to show the discounted annual rates. A '20% savings' indicator appeared which the user visibly focused on.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 25300,
+          "start_ms_since": 25300,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Plus' Button",
+        "date": "2023-11-20",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:32.6",
+          "end": "00:32.6",
+          "details": "User clicked the 'Upgrade to Plus' button in the Plus plan card, initiating the checkout process. This indicates a clear intent to upgrade.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 32600,
+          "start_ms_since": 32600,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Payment Information Form",
+        "date": "2023-11-20",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:45.2",
+          "end": "01:58.6",
+          "details": "User filled out the payment form with credit card details, billing address, and contact information. All required fields were completed and the form showed validation checkmarks.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 118600,
+          "start_ms_since": 105200,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Complete Purchase' Button",
+        "date": "2023-11-20",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "02:02.3",
+          "end": "02:02.3",
+          "details": "User clicked the 'Complete Purchase' button at the bottom of the payment form to finalize the transaction.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 122300,
+          "start_ms_since": 122300,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Payment Confirmation Screen Displayed",
+        "date": "2023-11-20",
+        "status": "converted",
+        "recordingReel": {
+          "start": "02:08.7",
+          "end": "02:15.4",
+          "details": "A success screen appeared showing 'Payment Successful! You are now subscribed to the Plus plan.' along with order details and a confirmation number. User was presented with a 'Continue to Dashboard' button which was subsequently clicked.",
+          "filename": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 135400,
+          "start_ms_since": 128700,
+          "recording_id": "export-0195c9f1-2776-86ad-10fe-2924f9def57e.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 29532,
+      "output_tokens": 3945,
+      "total_tokens": 33477
+    },
+    "_order": 2
+  }
+}

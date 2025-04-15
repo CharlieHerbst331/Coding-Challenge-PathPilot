@@ -1,0 +1,270 @@
+{
+  "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Regular Platform Usage Pattern",
+        "date": "2024-08-05",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:05.3",
+          "end": "02:45.8",
+          "details": "User logged in and demonstrated typical usage behavior. They accessed several Pro features during a 2.5-minute active session, working on a project that was 80% complete according to the progress indicator. The user has been a Pro subscriber for 5 months with consistent weekly activity.",
+          "filename": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 5300,
+          "end_ms_since": 165800,
+          "recording_id": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Payment Failure Notification",
+        "date": "2024-08-05",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:48.2",
+          "end": "02:53.7",
+          "details": "While working, a notification banner appeared at the top of the interface stating 'Your last payment method was declined. Please update your payment information to avoid losing Pro access.' The banner included an 'Update Payment' button and 'Dismiss' option.",
+          "filename": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 168200,
+          "end_ms_since": 173700,
+          "recording_id": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Dismissed Payment Notification",
+        "date": "2024-08-05",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:54.6",
+          "end": "02:54.6",
+          "details": "User clicked the 'Dismiss' button on the payment failure notification without taking action to update their payment method.",
+          "filename": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 174600,
+          "end_ms_since": 174600,
+          "recording_id": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed and Exported Project",
+        "date": "2024-08-05",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "05:12.9",
+          "end": "06:35.4",
+          "details": "User continued working on their project, completing the remaining 20%. Upon completion, they used the export feature to download the final outputs in multiple formats including PDF, editable source files, and shareable links.",
+          "filename": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 312900,
+          "end_ms_since": 395400,
+          "recording_id": "export-9582f7d1-ab34-82ce-63fb-3d92ac47ef5a.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 14287,
+      "output_tokens": 2935,
+      "total_tokens": 17222
+    },
+    "_order": 0
+  },
+  "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Received Billing Reminder Email",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:03.5",
+          "end": "00:25.1",
+          "details": "User clicked on a link in an email with the subject 'Action Required: Update Your Payment Method'. This directed them to the billing settings page which displayed a prominent alert banner stating 'Your subscription will be cancelled in 2 days if payment issues are not resolved.'",
+          "filename": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 3500,
+          "end_ms_since": 25100,
+          "recording_id": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Checked Competitor Website (External)",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:27.8",
+          "end": "00:27.8",
+          "details": "Session recording shows user opened a new browser tab and visited a competitor's website. While the exact content isn't captured in the recording, browser history integration shows they viewed pricing pages for a similar service. User spent approximately 4 minutes browsing the competitor site before returning.",
+          "filename": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 27800,
+          "end_ms_since": 27800,
+          "recording_id": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Current Pro Plan Features",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:35.2",
+          "end": "04:48.7",
+          "details": "After returning from the competitor site, user navigated to 'Plans' section of the website and reviewed their current Pro plan features and pricing. They spent time specifically scrolling through feature comparisons between different plan options.",
+          "filename": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 275200,
+          "end_ms_since": 288700,
+          "recording_id": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Returned to Billing Settings",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "05:02.3",
+          "end": "05:03.9",
+          "details": "User navigated back to the billing settings page from the plans comparison page. The payment update form was displayed prominently with fields for credit card information and billing address.",
+          "filename": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 302300,
+          "end_ms_since": 303900,
+          "recording_id": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Cancel Subscription' Option",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "05:12.7",
+          "end": "05:12.7",
+          "details": "Instead of updating payment information, user scrolled to the bottom of the billing page and clicked on the 'Cancel Subscription' link, which opened the cancellation flow modal.",
+          "filename": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 312700,
+          "end_ms_since": 312700,
+          "recording_id": "export-9582g8e2-bc45-93df-74gc-4e03bd58fg6b.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 16742,
+      "output_tokens": 3428,
+      "total_tokens": 20170
+    },
+    "_order": 1
+  },
+  "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Viewed Cancellation Confirmation Modal",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:02.4",
+          "end": "00:15.8",
+          "details": "A modal appeared with the heading 'Before You Go...' listing Pro features that would be lost upon cancellation. The modal highlighted that the subscription was set to expire due to payment failure and asked if the user wanted to update their payment method instead.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2400,
+          "end_ms_since": 15800,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:18.2",
+          "end": "00:19.5",
+          "details": "User selected 'Found a better alternative' from the dropdown menu asking for cancellation reason. Other options included 'Too expensive', 'Not using it enough', 'Missing features', 'Technical issues', and 'Other'.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 18200,
+          "end_ms_since": 19500,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Offered Competitive Retention Deal",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:21.3",
+          "end": "00:32.7",
+          "details": "Based on the selected reason, the system displayed a competitive counteroffer: 'We'd hate to lose you to a competitor. How about 3 months at 40% off our regular price, plus access to our new beta features?' The modal included buttons for 'Accept Special Offer', 'Update Payment Method', and 'Continue with Cancellation'.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 21300,
+          "end_ms_since": 32700,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Considered Competitive Offer",
+        "date": "2024-08-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:33.2",
+          "end": "00:58.9",
+          "details": "User spent approximately 25 seconds reviewing the offer details. They hovered over the 'Accept Special Offer' button multiple times, suggesting serious consideration of the retention offer.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 33200,
+          "end_ms_since": 58900,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Declined Retention Offer",
+        "date": "2024-08-08",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:00.4",
+          "end": "01:00.4",
+          "details": "Despite showing interest, user ultimately clicked the 'Continue with Cancellation' button, rejecting both the special discount offer and payment update option.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 60400,
+          "end_ms_since": 60400,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Provided Competitor Feedback",
+        "date": "2024-08-08",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:04.8",
+          "end": "01:25.6",
+          "details": "In the feedback form that appeared, user wrote: 'I found a competitor offering similar features at a lower price point. Their monthly plan is $8 cheaper and includes the advanced export options that are important for my workflow.' They then submitted the detailed feedback.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 64800,
+          "end_ms_since": 85600,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Cancellation Confirmation",
+        "date": "2024-08-08",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:27.9",
+          "end": "01:33.2",
+          "details": "System displayed a confirmation message: 'Your subscription has been cancelled. Pro access will continue until your current billing period ends.' User was returned to the billing page showing 'Current Plan: Pro (Cancelling on August 10, 2024)'.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 87900,
+          "end_ms_since": 93200,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Email Signup for Competitor (External)",
+        "date": "2024-08-08",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:40.5",
+          "end": "01:40.5",
+          "details": "Browser integration tracking showed user opened the competitor's website again in a separate tab. While not directly captured in the recording, analytics data indicated they completed an account signup process with the competitor platform within 15 minutes of cancelling their subscription.",
+          "filename": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries.json",
+          "start_ms_since": 100500,
+          "end_ms_since": 100500,
+          "recording_id": "export-9582h9f3-cd56-04eg-85hd-5f14ce69gh7c.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 22964,
+      "output_tokens": 4286,
+      "total_tokens": 27250
+    },
+    "_order": 2
+  }
+}

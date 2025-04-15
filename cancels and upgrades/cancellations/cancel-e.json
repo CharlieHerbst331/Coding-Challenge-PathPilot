@@ -1,0 +1,340 @@
+{
+  "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Project Import Failure",
+        "date": "2024-10-02",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:05.2",
+          "end": "01:23.7",
+          "details": "User attempted to import a large project file (258MB) through the platform's import feature. After the upload progress reached 100%, an error message appeared stating 'Import Failed: File size exceeds maximum allowed limit (200MB)'. User clicked 'Try Again' twice, receiving the same error message each time.",
+          "filename": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries.json",
+          "start_ms_since": 5200,
+          "end_ms_since": 83700,
+          "recording_id": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Opened Support Chat",
+        "date": "2024-10-02",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:25.8",
+          "end": "01:26.9",
+          "details": "User clicked on the 'Chat with Support' icon in the bottom right corner. The chat widget opened with an automated greeting message and options to select an issue category.",
+          "filename": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries.json",
+          "start_ms_since": 85800,
+          "end_ms_since": 86900,
+          "recording_id": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Support Chat Interaction",
+        "date": "2024-10-02",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:29.3",
+          "end": "05:46.2",
+          "details": "User explained the import issue to support. Support agent confirmed the 200MB file size limit for the Pro tier and suggested splitting the project into smaller files or upgrading to Enterprise tier for increased limits. User expressed frustration that the limit wasn't clearly indicated before the upload process began. The agent provided instructions for breaking down the project and promised to pass along feedback about improving the error messaging.",
+          "filename": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries.json",
+          "start_ms_since": 89300,
+          "end_ms_since": 346200,
+          "recording_id": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Project Split Attempt",
+        "date": "2024-10-02",
+        "status": "converted",
+        "recordingReel": {
+          "start": "06:12.5",
+          "end": "08:34.8",
+          "details": "Following support's suggestions, user attempted to split their project into smaller components using the platform's project management tools. During this process, the user encountered UI lag with operations taking 8-10 seconds to complete. User repeatedly clicked the 'Create Component' button, causing duplicate actions that led to error messages about duplicate component names.",
+          "filename": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries.json",
+          "start_ms_since": 372500,
+          "end_ms_since": 514800,
+          "recording_id": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Session Timeout Error",
+        "date": "2024-10-02",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "08:42.3",
+          "end": "08:47.9",
+          "details": "As the user continued working on splitting the project, the interface suddenly displayed a 'Session Timeout' error message. The error stated that their session had expired due to inactivity, despite active work for the past 30 minutes. All unsaved changes were lost.",
+          "filename": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries.json",
+          "start_ms_since": 522300,
+          "end_ms_since": 527900,
+          "recording_id": "export-3492r7e1-kl82-59mn-26de-7f31op18qr2s.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 16284,
+      "output_tokens": 3215,
+      "total_tokens": 19499
+    },
+    "_order": 0
+  },
+  "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Browser Console Error Check",
+        "date": "2024-10-03",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:03.2",
+          "end": "00:42.8",
+          "details": "User logged back in and opened browser developer tools to check console errors. The console displayed multiple JavaScript errors related to memory limits and failed API calls. User took screenshots of these errors, suggesting they might be collecting evidence of technical issues.",
+          "filename": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries.json",
+          "start_ms_since": 3200,
+          "end_ms_since": 42800,
+          "recording_id": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Alternative Import Attempt",
+        "date": "2024-10-03",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:48.5",
+          "end": "02:15.3",
+          "details": "User attempted an alternative method of importing their project by using the platform's API feature instead of the UI. They navigated to the API documentation and tried to follow the instructions for programmatic imports. During this process, they encountered a '429 Too Many Requests' rate limit error.",
+          "filename": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries.json",
+          "start_ms_since": 48500,
+          "end_ms_since": 135300,
+          "recording_id": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Submitted Support Ticket",
+        "date": "2024-10-03",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:20.7",
+          "end": "03:48.2",
+          "details": "User navigated to the help center and submitted a formal support ticket. They selected 'Technical Issue' as the category and 'Urgent - Blocking My Work' as the priority. In the description, user wrote a detailed account of the import problems, session timeouts, and rate limiting issues they'd experienced, including screenshots of console errors. They specifically mentioned being a paying Pro customer for 4 months and needing to complete a time-sensitive project.",
+          "filename": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries.json",
+          "start_ms_since": 140700,
+          "end_ms_since": 228200,
+          "recording_id": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Checked Competitor Website (External)",
+        "date": "2024-10-03",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:05.9",
+          "end": "05:23.5",
+          "details": "While waiting for a support response, user opened a new browser tab and visited a competitor's website. They viewed the competitor's import documentation page, which clearly advertised support for files up to 500MB on their equivalent pricing tier. User also opened the competitor's live chat to ask about their handling of large project files.",
+          "filename": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries.json",
+          "start_ms_since": 245900,
+          "end_ms_since": 323500,
+          "recording_id": "export-3492s8f2-lm93-60no-37ef-8g42pq29rs3t.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 18642,
+      "output_tokens": 3751,
+      "total_tokens": 22393
+    },
+    "_order": 1
+  },
+  "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Received Automated Support Response",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:02.8",
+          "end": "00:34.2",
+          "details": "User logged in and checked their support ticket. They had received an automated response stating the average response time was 24-48 hours. A status label showed 'Waiting for Agent Assignment' despite the ticket being marked as urgent and submitted over 18 hours ago.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 2800,
+          "end_ms_since": 34200,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Additional Error Encountered",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:38.5",
+          "end": "01:52.3",
+          "details": "User attempted to continue work on an existing smaller project while waiting for support. During this session, they tried to access the export function but received a 'Service Unavailable' error. After refreshing the page, they were able to access the export modal, but when they clicked 'Generate Export', another error occurred showing 'Export Failed: Internal Server Error'.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 38500,
+          "end_ms_since": 112300,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Updated Support Ticket",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:55.7",
+          "end": "02:24.8",
+          "details": "User added a comment to their existing support ticket documenting the new export error. They expressed increasing frustration, writing: 'Now I can't even export my existing projects. This is completely blocking my workflow and I have client deadlines approaching. Please escalate this issue immediately.'",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 115700,
+          "end_ms_since": 144800,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Started Trial with Competitor (External)",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:30.2",
+          "end": "04:15.6",
+          "details": "Browser integration data showed user opened the competitor's website again and signed up for their free trial. They spent approximately 1 hour and 45 minutes testing the competitor's platform, successfully importing a large test file and exploring features.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 150200,
+          "end_ms_since": 255600,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Navigated to Subscription Management",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:22.9",
+          "end": "04:25.1",
+          "details": "User returned to the original platform and navigated to 'Account Settings' from the user dropdown menu, then clicked on 'Subscription & Billing' in the settings sidebar.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 262900,
+          "end_ms_since": 265100,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Initiated Cancellation Process",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:28.7",
+          "end": "04:28.7",
+          "details": "On the subscription management page, user scrolled to the bottom and clicked the 'Cancel Subscription' button, which opened the cancellation flow modal.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 268700,
+          "end_ms_since": 268700,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:32.5",
+          "end": "04:33.8",
+          "details": "In the cancellation modal, user selected 'Technical issues' as their reason for cancellation from the dropdown menu. The system displayed a text area asking for more specific details about the technical problems experienced.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 272500,
+          "end_ms_since": 273800,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Provided Detailed Technical Feedback",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "04:36.2",
+          "end": "05:28.7",
+          "details": "User wrote a detailed explanation in the feedback field: 'I've encountered multiple critical errors over the past 48 hours: 1) File size limit errors with no clear warning before upload, 2) Session timeouts that lose my work, 3) Rate limit errors when using the API as an alternative, 4) Export failures with internal server errors. Support has been unresponsive for over 24 hours despite an urgent ticket. I need reliability for client work and can't afford these disruptions.'",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 276200,
+          "end_ms_since": 328700,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Offered Technical Escalation Retention Option",
+        "date": "2024-10-04",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "05:31.2",
+          "end": "05:48.6",
+          "details": "Based on the technical issues feedback, the system presented a specialized retention offer: 'We're sorry about these technical problems. Would you like us to escalate your case to our senior technical team for priority resolution within 2 hours? We'll also add 14 days of free service to your account as compensation for the inconvenience.' Buttons included 'Accept Priority Support' and 'Continue with Cancellation'.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 331200,
+          "end_ms_since": 348600,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Declined Retention Offer",
+        "date": "2024-10-04",
+        "status": "churned",
+        "recordingReel": {
+          "start": "05:52.3",
+          "end": "05:52.3",
+          "details": "After briefly considering the offer (approximately 4 seconds), user clicked 'Continue with Cancellation', declining the priority support and compensation offer.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 352300,
+          "end_ms_since": 352300,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Added Final Cancellation Comment",
+        "date": "2024-10-04",
+        "status": "churned",
+        "recordingReel": {
+          "start": "05:56.8",
+          "end": "06:28.4",
+          "details": "In the final comments field, user wrote: 'Priority support should have been offered when I submitted an urgent ticket yesterday, not after I've decided to cancel. I've already started working with your competitor who has a more reliable platform and better import/export capabilities. The technical limitations and support delays cost me valuable time on client deliverables that I can't get back.'",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 356800,
+          "end_ms_since": 388400,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Cancellation Confirmed",
+        "date": "2024-10-04",
+        "status": "churned",
+        "recordingReel": {
+          "start": "06:30.9",
+          "end": "06:35.2",
+          "details": "System displayed a confirmation message: 'Your Pro subscription has been cancelled. You will continue to have access to Pro features until the end of your current billing period.' User clicked 'Close' to dismiss the notification.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 390900,
+          "end_ms_since": 395200,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Subscription Ended with Competitor Conversion",
+        "date": "2024-10-15",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:00.0",
+          "end": "00:00.0",
+          "details": "Analytics data shows that the user did not log back into the platform after cancellation. External data indicates they converted to a paid plan with the competitor service within 48 hours of the original cancellation.",
+          "filename": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries.json",
+          "start_ms_since": 0,
+          "end_ms_since": 0,
+          "recording_id": "export-3492t9g3-no04-71op-48fg-9h53qr30st4u.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 29457,
+      "output_tokens": 5736,
+      "total_tokens": 35193
+    },
+    "_order": 2
+  }
+}

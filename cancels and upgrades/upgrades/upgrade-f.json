@@ -1,0 +1,288 @@
+{
+    "groups": [
+      {
+        "group_name": "Sign-Up Initiation",
+        "group_description": "Actions that involve starting a free trial or signing up, including authentication via third-party options.",
+        "original_labels": [
+          "Click 'Start for Free' (Initiate Free Trial Sign-Up)",
+          "Click 'Continue with Google' in Modal"
+        ],
+        "steps": [
+          {
+            "step_data": {
+              "label": "Click 'Start for Free' (Initiate Free Trial Sign-Up)",
+              "date": "2023-10-26",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "00:46.8",
+                "end": "00:46.8",
+                "details": "The user clicks on the 'Start for Free' button in the upper right corner. This initiates the free trial sign-up process.",
+                "filename": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries.json",
+                "start_ms_since": 46800,
+                "end_ms_since": 46800,
+                "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Click 'Continue with Google' in Modal",
+              "date": "2023-10-26",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "00:48.8",
+                "end": "00:48.8",
+                "details": "After the 'Start for Free' click, a modal dialog appears. The user clicks on 'Continue with Google', proceeding with the sign-in flow.",
+                "filename": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries.json",
+                "start_ms_since": 48800,
+                "end_ms_since": 48800,
+                "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+          }
+        ],
+        "step_count": 2
+      },
+      {
+        "group_name": "Pricing and Plan Exploration",
+        "group_description": "Steps where users view and review pricing plans and subscription details to understand available options.",
+        "original_labels": [
+          "Viewed Pricing Plans Screen",
+          "Reviewed Pricing Plan Details and Navigation via Sidebar",
+          "Viewed Subscription Plans Page"
+        ],
+        "steps": [
+          {
+            "step_data": {
+              "label": "Viewed Pricing Plans Screen",
+              "date": "2023-10-26",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "12:01.0",
+                "end": "12:01.0",
+                "details": "The interface transitions to display pricing plans ('Free', 'Pro', 'Enterprise'). The 'Pro' plan is shown with an 'Upgrade to Pro' button. This reflects the user's move toward exploring paid options.",
+                "filename": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries.json",
+                "start_ms_since": 721000,
+                "end_ms_since": 721000,
+                "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Reviewed Pricing Plan Details and Navigation via Sidebar",
+              "date": "2023-10-26",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "13:40.6",
+                "end": "13:40.9",
+                "details": "The user examines the pricing plans further. The screen shows the sidebar with pricing plan details including 'Current', 'Upgrade to Pro', and 'Coming Soon' buttons. A click on the 'Plans' option in the sidebar and subsequent UI changes indicate deeper review of upgrade options, though the 'Upgrade to Pro' button itself is not clicked.",
+                "filename": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries.json",
+                "start_ms_since": 820600,
+                "end_ms_since": 820900,
+                "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7b0-a1dd-758b-8ebb-10a02549207c.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Viewed Subscription Plans Page",
+              "date": "2023-10-30",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "00:15.4",
+                "end": "00:18.8",
+                "details": "The interface transitioned from a profile settings view to a subscription plans page displaying three plan cards (Free, Pro, Enterprise) with corresponding action buttons. This is a key pre-upgrade step.",
+                "filename": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries.json",
+                "end_ms_since": 18800,
+                "start_ms_since": 15400,
+                "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+          }
+        ],
+        "step_count": 3
+      },
+      {
+        "group_name": "Upgrade Engagement",
+        "group_description": "Interactions triggered by upgrade prompts, including various upgrade links, buttons, and notifications aimed at moving users to a premium tier.",
+        "original_labels": [
+          "Viewed Upgrade Notification in Chat",
+          "Clicked Upgrade Link",
+          "Clicked Upgrade Text Prompt",
+          "Clicked Upgrade Button",
+          "Clicked Upgrade to Pro Button (First Instance)",
+          "Clicked Upgrade to Pro Button (Second Instance)"
+        ],
+        "steps": [
+          {
+            "step_data": {
+              "label": "Viewed Upgrade Notification in Chat",
+              "date": "2023-10-31",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "45:10.0",
+                "end": "45:14.0",
+                "details": "User was actively engaged in the chat interface and observed upgrade notifications indicating message limits (e.g. '3 messages left- upgrade to Pro for more'). This suggests the user was becoming aware of limitations and potential benefits of upgrading.",
+                "filename": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries.json",
+                "start_ms_since": 45100,
+                "end_ms_since": 45140,
+                "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Clicked Upgrade Link",
+              "date": "2023-10-31",
+              "status": "attempted_conversion",
+              "recordingReel": {
+                "start": "45:49.1",
+                "end": "45:49.7",
+                "details": "User clicked on the 'Upgrade' link in the lower left quadrant. This action immediately changed the visible message limit from '2 messages left' to '1 message left', showing clear intent towards initiating an upgrade.",
+                "filename": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries.json",
+                "start_ms_since": 45491,
+                "end_ms_since": 45497,
+                "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Clicked Upgrade Text Prompt",
+              "date": "2023-10-31",
+              "status": "attempted_conversion",
+              "recordingReel": {
+                "start": "46:02.1",
+                "end": "46:02.3",
+                "details": "User clicked on the text prompt '1 message left- upgrade to Pro for more' in the chat area, reinforcing their intent to explore the upgrade option further. This interaction is part of the pre-upgrade pattern observed in the session.",
+                "filename": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries.json",
+                "start_ms_since": 46021,
+                "end_ms_since": 46030,
+                "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Clicked Upgrade Button",
+              "date": "2023-10-31",
+              "status": "attempted_conversion",
+              "recordingReel": {
+                "start": "60:33.0",
+                "end": "60:33.9",
+                "details": "At the later stage of the session, the user clicked on an 'Upgrade' button located in the upper right quadrant. Shortly after this click, the upgrade button disappeared, and no 'Payment Successful' popup was observed, indicating that while the user attempted the upgrade, a successful payment conversion did not occur during the recorded session.",
+                "filename": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries.json",
+                "start_ms_since": 60330,
+                "end_ms_since": 60339,
+                "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b7cc-8774-7307-9703-4c90cc2dfa7a.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Clicked Upgrade to Pro Button (First Instance)",
+              "date": "2023-10-30",
+              "status": "attempted_conversion",
+              "recordingReel": {
+                "start": "00:18.8",
+                "end": "00:18.8",
+                "details": "User clicked the 'Upgrade to Pro' button located in the center Pro plan card, showing intent to upgrade.",
+                "filename": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries.json",
+                "end_ms_since": 18800,
+                "start_ms_since": 18800,
+                "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+          },
+          {
+            "step_data": {
+              "label": "Clicked Upgrade to Pro Button (Second Instance)",
+              "date": "2023-10-30",
+              "status": "attempted_conversion",
+              "recordingReel": {
+                "start": "05:25.7",
+                "end": "05:25.7",
+                "details": "In a subsequent interaction, the user clicked the 'Upgrade to Pro' button again in the Pro plan section, reinforcing the intent to upgrade.",
+                "filename": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries.json",
+                "end_ms_since": 325700,
+                "start_ms_since": 325700,
+                "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+          }
+        ],
+        "step_count": 6
+      },
+      {
+        "group_name": "Account Management",
+        "group_description": "User actions related to managing or revisiting account settings.",
+        "original_labels": [
+          "Accessed Account Settings"
+        ],
+        "steps": [
+          {
+            "step_data": {
+              "label": "Accessed Account Settings",
+              "date": "2023-10-30",
+              "status": "non-converted",
+              "recordingReel": {
+                "start": "00:11.8",
+                "end": "00:13.7",
+                "details": "User clicked on the 'Settings' option in the profile dropdown after expanding the user profile menu. This indicates initial exploration of account settings before checking subscription options.",
+                "filename": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries.json",
+                "end_ms_since": 13700,
+                "start_ms_since": 11800,
+                "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+          }
+        ],
+        "step_count": 1
+      },
+      {
+        "group_name": "Payment Confirmation",
+        "group_description": "The final part of the journey where the payment process is confirmed.",
+        "original_labels": [
+          "Payment Successful Popup Displayed"
+        ],
+        "steps": [
+          {
+            "step_data": {
+              "label": "Payment Successful Popup Displayed",
+              "date": "2023-10-30",
+              "status": "converted",
+              "recordingReel": {
+                "start": "24:54.9",
+                "end": "28:28.8",
+                "details": "The interface displayed a modal popup stating 'Payment Successful. You're now subscribed to Pro', followed by a 'Done' button click. This confirms a successful upgrade conversion.",
+                "filename": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries.json",
+                "end_ms_since": 1708800,
+                "start_ms_since": 1494900,
+                "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+              }
+            },
+            "recording_id": "export-0195b870-0667-75ac-9fef-1813f8def46d.ph-recording-chunk-summaries"
+          }
+        ],
+        "step_count": 1
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 385,
+      "output_tokens": 1185,
+      "total_tokens": 1570
+    }
+  }

@@ -1,0 +1,256 @@
+{
+  "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Click 'Start for Free' (Initiate Free Trial Sign-Up)",
+        "date": "2024-01-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:39.2",
+          "end": "00:39.2",
+          "details": "The user clicks on the 'Start for Free' button located in the upper right corner of the homepage. This initiates the free trial sign-up process.",
+          "filename": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 39200,
+          "end_ms_since": 39200,
+          "recording_id": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Click 'Continue with Google' in Modal",
+        "date": "2024-01-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:42.5",
+          "end": "00:42.5",
+          "details": "After the 'Start for Free' click, a modal dialog appears with sign-in options. The user selects 'Continue with Google' to proceed with the authentication flow.",
+          "filename": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 42500,
+          "end_ms_since": 42500,
+          "recording_id": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Onboarding Questionnaire",
+        "date": "2024-01-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "02:15.6",
+          "end": "03:40.2",
+          "details": "User completed a multi-step onboarding questionnaire selecting their role, company size, and primary use cases. This information helps tailor the platform experience to their needs.",
+          "filename": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 135600,
+          "end_ms_since": 220200,
+          "recording_id": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Visited Integrations Page",
+        "date": "2024-01-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "10:25.8",
+          "end": "10:26.3",
+          "details": "User navigated to the Integrations page showing available app connections. Several premium integrations were marked with a 'Pro' badge, indicating they require a paid subscription to access.",
+          "filename": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries.json",
+          "start_ms_since": 625800,
+          "end_ms_since": 626300,
+          "recording_id": "export-0195f6c8-d4ee-78ab-7dcc-33b05878e69f.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 9764,
+      "output_tokens": 3325,
+      "total_tokens": 13089
+    },
+    "_order": 0
+  },
+  "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Encountered Export Limit Message",
+        "date": "2024-01-18",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "22:18.5",
+          "end": "22:20.1",
+          "details": "User attempted to export a large file and received a notification stating 'Free accounts are limited to 5 exports per week. You have used 5/5 exports. Upgrade to Pro for unlimited exports.'",
+          "filename": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1338500,
+          "end_ms_since": 1340100,
+          "recording_id": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'View Plans' from Limit Message",
+        "date": "2024-01-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "22:22.7",
+          "end": "22:22.7",
+          "details": "User clicked on the 'View Plans' button in the export limit notification. This directed the user to the pricing plans page showing Free, Pro, and Enterprise options.",
+          "filename": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1342700,
+          "end_ms_since": 1342700,
+          "recording_id": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Compared Export Limits Between Plans",
+        "date": "2024-01-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "22:35.4",
+          "end": "22:38.9",
+          "details": "User focused on the exports row in the plan comparison table, noting that the Pro plan offers unlimited exports while the Free plan is limited to 5 per week. User hovered over the information icon to view additional details.",
+          "filename": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1355400,
+          "end_ms_since": 1358900,
+          "recording_id": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-01-18",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "22:46.3",
+          "end": "22:46.3",
+          "details": "User clicked on the 'Upgrade to Pro' button in the Pro plan column, indicating intent to upgrade their account. The interface began loading the checkout process, but the user closed the browser tab before completing payment.",
+          "filename": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1366300,
+          "end_ms_since": 1366300,
+          "recording_id": "export-0195f7a9-e5ff-72cd-8b13-5e26dd49fa8b.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 22187,
+      "output_tokens": 3512,
+      "total_tokens": 25699
+    },
+    "_order": 1
+  },
+  "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Accessed Account Settings",
+        "date": "2024-01-22",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:09.5",
+          "end": "00:11.2",
+          "details": "User clicked on their profile icon in the top right corner and selected 'Settings' from the dropdown menu. This navigated to the account settings page.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 11200,
+          "start_ms_since": 9500,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked on 'Subscription' Tab",
+        "date": "2024-01-22",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:13.8",
+          "end": "00:14.2",
+          "details": "In the account settings page, user clicked on the 'Subscription' tab in the left sidebar. This displayed their current Free plan status and available upgrade options.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 14200,
+          "start_ms_since": 13800,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Subscription Plans Page",
+        "date": "2024-01-22",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:14.6",
+          "end": "00:18.2",
+          "details": "The interface displayed the subscription plans page showing three plan cards (Free, Pro, Enterprise) with features and pricing. User's current Free plan was highlighted with a 'Current' label.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 18200,
+          "start_ms_since": 14600,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Toggled to Annual Billing",
+        "date": "2024-01-22",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:22.3",
+          "end": "00:22.3",
+          "details": "User switched from monthly to annual billing using the toggle at the top of the pricing page. The displayed prices updated to show annual rates with a '20% savings' indicator.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 22300,
+          "start_ms_since": 22300,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked Upgrade to Pro Button (First Instance)",
+        "date": "2024-01-22",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:29.5",
+          "end": "00:29.5",
+          "details": "User clicked the 'Upgrade to Pro' button in the Pro plan card, initiating the checkout process.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 29500,
+          "start_ms_since": 29500,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Payment Form",
+        "date": "2024-01-22",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:15.2",
+          "end": "01:42.7",
+          "details": "User filled out all required fields in the payment form, including credit card information, billing address, and contact details. All validation checks were completed successfully.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 102700,
+          "start_ms_since": 75200,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Complete Purchase' Button",
+        "date": "2024-01-22",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:45.8",
+          "end": "01:45.8",
+          "details": "User clicked the 'Complete Purchase' button at the bottom of the payment form to finalize the transaction.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 105800,
+          "start_ms_since": 105800,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Payment Successful Popup Displayed",
+        "date": "2024-01-22",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:51.3",
+          "end": "01:56.8",
+          "details": "The interface displayed a modal popup stating 'Payment Successful. You're now subscribed to Pro' with a green checkmark icon. User clicked the 'Done' button after viewing the confirmation message.",
+          "filename": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 116800,
+          "start_ms_since": 111300,
+          "recording_id": "export-0195f9e2-f6aa-74de-9c24-6f37ee50fb9c.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 32458,
+      "output_tokens": 4276,
+      "total_tokens": 36734
+    },
+    "_order": 2
+  }
+}

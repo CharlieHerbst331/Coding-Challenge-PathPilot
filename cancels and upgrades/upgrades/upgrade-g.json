@@ -1,0 +1,517 @@
+{
+    "2708a538-5140-4176-a639-55e4a491b72a": {
+      "_order": 0,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "cc773b7c-8bab-4294-a570-1fdbd501332b": {
+      "_order": 1,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: All status checks failed."
+    },
+    "9e963989-76fd-4005-a66f-9a5ca27960f7": {
+      "steps": [
+        {
+          "label": "Access Settings Page",
+          "date": "2023-10-12",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:06.8",
+            "end": "00:07.3",
+            "details": "User clicked on the 'Settings' button in the sidebar. The interface transitioned from the project creation screen to the user settings page where profile, activity, and advanced options were shown.",
+            "filename": "9e963989-76fd-4005-a66f-9a5ca27960f7.json",
+            "start_ms_since": 6800,
+            "end_ms_since": 7300,
+            "recording_id": "9e963989-76fd-4005-a66f-9a5ca27960f7"
+          }
+        },
+        {
+          "label": "Navigate to Plans and Pricing Overview",
+          "date": "2023-10-12",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:08.0",
+            "end": "00:11.6",
+            "details": "User clicked on the 'Plans' option in the sidebar, triggering a transition to a view where pricing details are visible. The interface updates to display plan options including 'Free', 'Pro', and 'Enterprise' with visible 'Upgrade to Pro' buttons on the pricing page.",
+            "filename": "9e963989-76fd-4005-a66f-9a5ca27960f7.json",
+            "start_ms_since": 8000,
+            "end_ms_since": 11600,
+            "recording_id": "9e963989-76fd-4005-a66f-9a5ca27960f7"
+          }
+        },
+        {
+          "label": "Examine Detailed Pricing and Billing Information",
+          "date": "2023-10-12",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:24.0",
+            "end": "01:35.6",
+            "details": "User views a detailed screen state where billing information is presented. The billing page shows 'Plan Details' including 'Current Plan: Free', daily messaging limits, and an 'Upgrade to Pro' button alongside plan comparisons. This reflects pre-upgrade behavior where the user is assessing the available paid plan option.",
+            "filename": "9e963989-76fd-4005-a66f-9a5ca27960f7.json",
+            "start_ms_since": 84000,
+            "end_ms_since": 95600,
+            "recording_id": "9e963989-76fd-4005-a66f-9a5ca27960f7"
+          }
+        },
+        {
+          "label": "Review Billing Details with Upgrade Option Visible",
+          "date": "2023-10-12",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "02:56.5",
+            "end": "02:60.0",
+            "details": "User is seen on the billing screen where the 'Upgrade to Pro' button is prominently visible along with details such as 'Current Plan: Free' and remaining credits. Although the upgrade option is available, no click on the 'Upgrade to Pro' button is recorded, and no further upgrade actions or payment confirmations occur.",
+            "filename": "9e963989-76fd-4005-a66f-9a5ca27960f7.json",
+            "start_ms_since": 176500,
+            "end_ms_since": 180000,
+            "recording_id": "9e963989-76fd-4005-a66f-9a5ca27960f7"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 7906,
+        "output_tokens": 3982,
+        "total_tokens": 11888
+      },
+      "_order": 2
+    },
+    "379eb428-1b62-4d40-a6a8-34eb84a16816": {
+      "steps": [
+        {
+          "label": "Initial Screen Exploration",
+          "date": "2023-10-05",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:00.0",
+            "end": "00:00.0",
+            "details": "The initial screen displays a dark-themed interface with a sidebar containing options (Start new chat, Chats, Settings, Feedback) and a central project creation prompt ('What do you want to build?') with input suggestions and buttons. No click events or UI changes are detected.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 0,
+            "end_ms_since": 0,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        },
+        {
+          "label": "Navigated to Settings",
+          "date": "2023-10-05",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:06.7",
+            "end": "00:07.2",
+            "details": "User clicked on the 'Settings' option in the sidebar, triggering a UI update that transitioned the view from the project creation screen to a user profile settings page with form fields (Username, Email) and additional configuration options.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 6700,
+            "end_ms_since": 7200,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        },
+        {
+          "label": "Navigated to Plans Overview",
+          "date": "2023-10-05",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:09.5",
+            "end": "00:09.8",
+            "details": "User clicked on the 'Plans' option in the sidebar, resulting in a transition from the profile settings page to a plans overview page displaying three different plans: Free, Pro, and Enterprise. UI elements such as plan details and buttons (Upgrade to Pro and Coming Soon) are presented.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 9500,
+            "end_ms_since": 9800,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        },
+        {
+          "label": "Attempted Upgrade to Pro",
+          "date": "2023-10-05",
+          "status": "attempted_conversion",
+          "recordingReel": {
+            "start": "00:11.1",
+            "end": "00:11.1",
+            "details": "A click event is detected at the center of the screen on the 'Upgrade to Pro' button within the Pro plan section. Although this indicates an attempt to upgrade, no payment confirmation or 'Payment Successful' popup is observed in later segments.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 11100,
+            "end_ms_since": 11100,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        },
+        {
+          "label": "Explored Pro Plan Customization Option",
+          "date": "2023-10-05",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:42.4",
+            "end": "01:42.4",
+            "details": "User clicked on the text 'Custom design system (soon)' within the Pro plan section. This interaction shows exploration of additional design or premium model options, reinforcing curiosity about advanced features prior to any conversion action.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 102400,
+            "end_ms_since": 102400,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        },
+        {
+          "label": "Final Pro Plan Review",
+          "date": "2023-10-05",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:54.8",
+            "end": "01:56.4",
+            "details": "The interface displays the plans overview again with a dark-themed layout. The Pro plan remains prominent with the 'Upgrade to Pro' button visible. The user scrolls through the content without clicking further. No conversion, such as a payment confirmation, is detected during this later review.",
+            "filename": "379eb428-1b62-4d40-a6a8-34eb84a16816.json",
+            "start_ms_since": 114800,
+            "end_ms_since": 116400,
+            "recording_id": "379eb428-1b62-4d40-a6a8-34eb84a16816"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 3369,
+        "output_tokens": 3723,
+        "total_tokens": 7092
+      },
+      "_order": 3
+    },
+    "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda": {
+      "steps": [
+        {
+          "label": "Initial Screen Display with Sidebar and Login Form",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:52.0",
+            "end": "01:55.4",
+            "details": "The session starts with a completely black screen. At 01:52.0, the left sidebar appears with options including 'Start new chat', 'Chats', 'Settings', 'Feedback', 'Recents', 'Create a login page', and 'Create a dashboard'. The main area displays the 'Spotify Login Form' with a text input field prompting 'create a login with the spotify look and feel', along with generated code file lists and a notification 'Now you open and edit HeroUI Pro components'. The cursor hovers over the 'Create a login page' option.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 115400,
+            "start_ms_since": 112000,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        },
+        {
+          "label": "Revisited Screen State with Public Spotify Login Form",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:55.4",
+            "end": "01:55.4",
+            "details": "At 01:55.4, the updated screen still displays the left sidebar with similar options and the main content area titled 'Spotify Login Form' (tagged as 'Public'). Additional text inputs and sections labeled 'UI' along with generated file lists are visible. The notification remains at the bottom left, and the cursor is seen in the center over the list of generated files.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 115400,
+            "start_ms_since": 115400,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        },
+        {
+          "label": "Cursor Movement to Upper Right",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:57.6",
+            "end": "01:57.6",
+            "details": "At 01:57.6, the cursor is observed moving to the upper right quadrant of the screen, positioned near the top bar with the 'Preview' button to the left and the 'Fork' button to the right, indicating exploration of the interface.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 117600,
+            "start_ms_since": 117600,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        },
+        {
+          "label": "Click Event on Preview Button",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "01:59.2",
+            "end": "01:59.2",
+            "details": "At 01:59.2, a click is detected on the 'Preview' button located in the upper center. Immediately following the click, a mutation event is recorded where no visual changes occur (no new elements, changes in color, text, or UI state), indicating a non-conversion interaction.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 119200,
+            "start_ms_since": 119200,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        },
+        {
+          "label": "Click on Blue Icon in Top Bar",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "02:00.2",
+            "end": "02:00.2",
+            "details": "At 02:00.2, a click is detected on a blue icon in the top bar. The screen context remains largely unchanged with the sidebar and main content still displaying the Spotify login themed interface. No UI state changes or notifications are observed.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 120200,
+            "start_ms_since": 120200,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        },
+        {
+          "label": "Second Click on Blue Icon with Subsequent Mutation",
+          "date": "2023-10-06",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "02:02.5",
+            "end": "02:03.3",
+            "details": "At 02:02.5, another click is recorded on a blue icon in the top bar. This is followed by a mutation event at 02:03.3, where once again no visual changes (no new or missing elements, no changes in color, size, or text) or UI state modifications are observed. This interaction also does not indicate an upgrade attempt.",
+            "filename": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda.json",
+            "end_ms_since": 123300,
+            "start_ms_since": 122500,
+            "recording_id": "b53d53fb-1937-4ed3-9b3a-59ab43bf7cda"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 2045,
+        "output_tokens": 4164,
+        "total_tokens": 6209
+      },
+      "_order": 4
+    },
+    "48e0d056-db0e-46cc-be3b-d2d324d82978": {
+      "_order": 5,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "06540fbb-eca8-49d8-ac99-5bfb31608cf7": {
+      "_order": 6,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "edfcc552-9397-483a-912b-5f6f3394e04d": {
+      "_order": 7,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: All status checks failed."
+    },
+    "9c9176d6-014a-4e33-b291-88c65eef2044": {
+      "_order": 8,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "fe5ae061-d111-4968-92b0-1c670bee685a": {
+      "steps": [
+        {
+          "label": "Initial Project Creation Screen Display",
+          "date": "2023-10-29",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:00.0",
+            "end": "00:54.1",
+            "details": "At 00:00 the interface loads showing a left sidebar with options such as 'Start new chat', 'Chats', 'Settings', 'Feedback', 'Starred', and 'Recents'. In the center, a prompt 'What do you want to build?' appears with a text input field placeholder 'Create a pricing page...'. Additional buttons labeled 'Think', 'Public' and other page creation options are visible. No click events, errors, or UI state changes are observed.",
+            "filename": "fe5ae061-d111-4968-92b0-1c670bee685a.json",
+            "start_ms_since": 0,
+            "end_ms_since": 54100,
+            "recording_id": "fe5ae061-d111-4968-92b0-1c670bee685a"
+          }
+        },
+        {
+          "label": "Feedback Option Click",
+          "date": "2023-10-29",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:56.2",
+            "end": "00:56.2",
+            "details": "At 00:56.2 the user clicks on the 'Feedback' option in the left sidebar. The cursor is directly over the 'Feedback' element at the time of the click.",
+            "filename": "fe5ae061-d111-4968-92b0-1c670bee685a.json",
+            "start_ms_since": 56200,
+            "end_ms_since": 56200,
+            "recording_id": "fe5ae061-d111-4968-92b0-1c670bee685a"
+          }
+        },
+        {
+          "label": "Transition to User Settings Page",
+          "date": "2023-10-29",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:57.0",
+            "end": "00:57.0",
+            "details": "At 00:57.0, the interface transitions from the project creation screen to a user settings page. The central prompt and page creation buttons disappear and are replaced by a 'Profile' section with form fields for 'Username' and 'Email', an 'Advanced' section, and the left sidebar now highlights 'Settings'.",
+            "filename": "fe5ae061-d111-4968-92b0-1c670bee685a.json",
+            "start_ms_since": 57000,
+            "end_ms_since": 57000,
+            "recording_id": "fe5ae061-d111-4968-92b0-1c670bee685a"
+          }
+        },
+        {
+          "label": "Profile Option Click in Settings",
+          "date": "2023-10-29",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "06:30.7",
+            "end": "06:30.7",
+            "details": "At 06:30.7, the settings page is displayed showing sidebar options 'Profile', 'Plans', and 'Billing'. The user clicks directly on the 'Profile' option in the sidebar.",
+            "filename": "fe5ae061-d111-4968-92b0-1c670bee685a.json",
+            "start_ms_since": 390700,
+            "end_ms_since": 390700,
+            "recording_id": "fe5ae061-d111-4968-92b0-1c670bee685a"
+          }
+        },
+        {
+          "label": "Plans Page Display with Subscription Options",
+          "date": "2023-10-29",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "06:30.9",
+            "end": "06:30.9",
+            "details": "At 06:30.9, the view transitions from the profile settings page to the 'Plans' page. The page displays three subscription plans: Free, Pro, and Enterprise along with details on pricing and features. Action buttons like 'Current' or 'Upgrade to Pro' are shown; however, no click on the upgrade button is recorded.",
+            "filename": "fe5ae061-d111-4968-92b0-1c670bee685a.json",
+            "start_ms_since": 390900,
+            "end_ms_since": 390900,
+            "recording_id": "fe5ae061-d111-4968-92b0-1c670bee685a"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 1554,
+        "output_tokens": 2729,
+        "total_tokens": 4283
+      },
+      "_order": 9
+    },
+    "382ec0f3-512c-4a9a-b984-5e4105efb162": {
+      "_order": 10,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "72e39a40-9a27-4cd5-a2d0-ebb539275212": {
+      "steps": [
+        {
+          "label": "Navigated to Settings and Billing Section",
+          "date": "2023-10-10",
+          "status": "non-converted",
+          "recordingReel": {
+            "start": "00:04.4",
+            "end": "00:07.0",
+            "details": "User clicked on the 'Settings' button at 00:04.4 which led to a transition to the settings page at 00:05. Shortly after, at 00:05, the user clicked on the 'Billing' option in the sidebar, resulting in a transition to the plans selection view displaying 'Free', 'Pro', and 'Enterprise' options.",
+            "filename": "72e39a40-9a27-4cd5-a2d0-ebb539275212.json",
+            "end_ms_since": 7000,
+            "start_ms_since": 4400,
+            "recording_id": "72e39a40-9a27-4cd5-a2d0-ebb539275212"
+          }
+        },
+        {
+          "label": "Clicked Upgrade to Pro Button",
+          "date": "2023-10-10",
+          "status": "attempted_conversion",
+          "recordingReel": {
+            "start": "00:08.0",
+            "end": "00:08.0",
+            "details": "In the plans selection view, the user explicitly clicked the 'Upgrade to Pro' button in the Pro plan section at 00:08. The click was clear and unambiguous, showing intent to upgrade although no immediate UI change was observed.",
+            "filename": "72e39a40-9a27-4cd5-a2d0-ebb539275212.json",
+            "end_ms_since": 8000,
+            "start_ms_since": 8000,
+            "recording_id": "72e39a40-9a27-4cd5-a2d0-ebb539275212"
+          }
+        },
+        {
+          "label": "Confirmed Payment Successful via Popup",
+          "date": "2023-10-10",
+          "status": "converted",
+          "recordingReel": {
+            "start": "01:41.5",
+            "end": "01:41.5",
+            "details": "Following the upgrade attempt, a pop-up notification appeared with the message 'Payment Successful. You're now subscribed to Pro'. At 01:41.5, the user clicked on the 'Done' button within this pop-up, confirming a successful conversion to the upgraded paid plan.",
+            "filename": "72e39a40-9a27-4cd5-a2d0-ebb539275212.json",
+            "end_ms_since": 101500,
+            "start_ms_since": 101500,
+            "recording_id": "72e39a40-9a27-4cd5-a2d0-ebb539275212"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 7585,
+        "output_tokens": 4874,
+        "total_tokens": 12459
+      },
+      "_order": 11
+    },
+    "0775c62b-5110-4a46-a026-7e1569b55fee": {
+      "_order": 12,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "57de757f-11ba-4320-b344-80e654ba58d7": {
+      "_order": 13,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "6d71df89-0d43-4f58-b9dd-f85dbcbfcfb8": {
+      "_order": 14,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "4f94227b-25cf-44b3-ae39-727ff328baa8": {
+      "_order": 15,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "ebe3b45e-dfbb-429c-856d-5f5313184d98": {
+      "_order": 16,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "26e52336-8fb8-42e3-8527-b00e57abf665": {
+      "_order": 17,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "2000a1de-2800-44f5-909d-0736a05a296f": {
+      "_order": 18,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "78dc9cee-f1f6-4ec6-9b1a-b6c6c39c4ea4": {
+      "_order": 19,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "16c25689-4c56-4747-89ca-883ec6bf80c6": {
+      "_order": 20,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "6bf9f7d8-9343-4ffe-abf3-9cabe2af5dda": {
+      "_order": 21,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "d08cc081-cbbd-4981-8bf5-146220e3db40": {
+      "_order": 22,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "58890ba0-077e-4f42-af7d-8cd8ede4f8b3": {
+      "_order": 23,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: All status checks failed."
+    },
+    "4193b15b-2a98-4cb7-a8ff-31abc0ec747f": {
+      "_order": 24,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "97c27059-d240-4f55-b41e-edbd49ad35d7": {
+      "_order": 25,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "184b938d-93ec-455d-9d77-2c4a9b61db9e": {
+      "_order": 26,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "11f9b605-8d42-478a-8152-4a51fd08040b": {
+      "_order": 27,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "f625a2ab-2dff-4ddd-bf08-00500ed135fe": {
+      "_order": 28,
+      "error": "No valid narration found",
+      "details": "Failed narration: Ingestion run failed for this recording ID: Missing data structure."
+    },
+    "9fd61e22-ca1f-4d14-9b7f-e710ad09b313": {
+      "steps": [],
+      "usage_metadata": {
+        "input_tokens": 2705,
+        "output_tokens": 912,
+        "total_tokens": 3617
+      },
+      "_order": 29
+    }
+  }

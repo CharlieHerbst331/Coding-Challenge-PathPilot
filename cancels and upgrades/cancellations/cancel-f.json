@@ -1,0 +1,326 @@
+{
+    "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries": {
+      "steps": [
+        {
+          "label": "Active Regular Usage Pattern",
+          "date": "2024-11-03",
+          "status": "converted",
+          "recordingReel": {
+            "start": "00:04.2",
+            "end": "01:47.5",
+            "details": "User logged in and demonstrated typical high-engagement behavior. They worked on a project with team collaboration features, actively using commenting, version control, and approval workflows. Usage metrics showed this was a consistently active Pro account for the past 8 months with above-average feature utilization.",
+            "filename": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries.json",
+            "start_ms_since": 4200,
+            "end_ms_since": 107500,
+            "recording_id": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Team Member Removal",
+          "date": "2024-11-03",
+          "status": "converted",
+          "recordingReel": {
+            "start": "01:52.8",
+            "end": "02:15.6",
+            "details": "User navigated to the 'Team Management' section and removed two team members from their workspace. When prompted for a reason, they selected 'No longer with the organization' for both users. The system showed they now had 3 active team members remaining out of their Pro plan's 10-user allocation.",
+            "filename": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries.json",
+            "start_ms_since": 112800,
+            "end_ms_since": 135600,
+            "recording_id": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Project Archiving Session",
+          "date": "2024-11-03",
+          "status": "converted",
+          "recordingReel": {
+            "start": "02:20.4",
+            "end": "03:42.1",
+            "details": "User systematically archived multiple active projects. They reviewed each project before archiving, occasionally adding final notes like 'Completed for Q3' and 'Client approved final version'. By the end of the session, they had archived 8 of their 12 active projects.",
+            "filename": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries.json",
+            "start_ms_since": 140400,
+            "end_ms_since": 222100,
+            "recording_id": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Comprehensive Export Session",
+          "date": "2024-11-03",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "03:48.7",
+            "end": "05:16.3",
+            "details": "User navigated to the data export section and initiated a full workspace export including all projects, templates, and assets. They selected the 'Include Archived Projects' option and the 'Complete Project History' setting to ensure all data was captured. When prompted if this was for backup or migration purposes, user selected 'Other'.",
+            "filename": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries.json",
+            "start_ms_since": 228700,
+            "end_ms_since": 316300,
+            "recording_id": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Updated Profile Information",
+          "date": "2024-11-03",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "05:22.9",
+            "end": "05:38.4",
+            "details": "While waiting for the export to complete, user navigated to their profile settings and updated their job title from 'Marketing Director at XYZ Corp' to 'Independent Marketing Consultant'. They also changed their professional email from a corporate domain to a personal email address.",
+            "filename": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries.json",
+            "start_ms_since": 322900,
+            "end_ms_since": 338400,
+            "recording_id": "export-6874j2d5-mn46-83pq-71rs-3t95uv26wx7y.ph-recording-chunk-summaries"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 15236,
+        "output_tokens": 3124,
+        "total_tokens": 18360
+      },
+      "_order": 0
+    },
+    "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries": {
+      "steps": [
+        {
+          "label": "Accessed Account Settings",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:02.5",
+            "end": "00:04.1",
+            "details": "User logged in and immediately navigated to 'Account Settings' from the dropdown menu in the top right corner. This was their first login since the comprehensive export session 7 days prior.",
+            "filename": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries.json",
+            "start_ms_since": 2500,
+            "end_ms_since": 4100,
+            "recording_id": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Viewed Plans Comparison",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:06.8",
+            "end": "00:32.9",
+            "details": "User selected 'Plans' from the settings menu and spent approximately 25 seconds reviewing the comparison between Pro and Free plan features. They focused particularly on the 'Individual User' section of the Free plan, noting the limitations on collaboration features.",
+            "filename": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries.json",
+            "start_ms_since": 6800,
+            "end_ms_since": 32900,
+            "recording_id": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Navigated to Subscription Management",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:34.5",
+            "end": "00:36.2",
+            "details": "User clicked on 'Subscription & Billing' in the settings sidebar. The page displayed their current Pro plan details, including the next billing date of November 15, 2024, and the monthly charge of $49.99 for their team subscription.",
+            "filename": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries.json",
+            "start_ms_since": 34500,
+            "end_ms_since": 36200,
+            "recording_id": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Opened Downgrade Options",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:38.7",
+            "end": "00:45.3",
+            "details": "User clicked on 'Explore Other Plans' button and viewed the downgrade options. The system displayed a modal comparing their current Pro plan with lower-tier options, including a 'Lite' plan for $24.99/month and the Free plan with limited features.",
+            "filename": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries.json",
+            "start_ms_since": 38700,
+            "end_ms_since": 45300,
+            "recording_id": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Selected 'Cancel Subscription' Option",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:48.2",
+            "end": "00:48.2",
+            "details": "After reviewing the downgrade options, user closed the modal and scrolled to the bottom of the subscription page where they clicked the 'Cancel Subscription' button, initiating the cancellation flow.",
+            "filename": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries.json",
+            "start_ms_since": 48200,
+            "end_ms_since": 48200,
+            "recording_id": "export-6874k3e6-op57-94qr-82st-4u06vw37xy8z.ph-recording-chunk-summaries"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 17451,
+        "output_tokens": 2938,
+        "total_tokens": 20389
+      },
+      "_order": 1
+    },
+    "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries": {
+      "steps": [
+        {
+          "label": "Viewed Cancellation Confirmation Modal",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:02.3",
+            "end": "00:12.6",
+            "details": "A modal appeared with the title 'We're Sorry to See You Go' explaining the Pro features that would be lost upon cancellation. The modal explained that the account would be downgraded to the Free plan at the end of the current billing period and included a required dropdown for cancellation reason.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 2300,
+            "end_ms_since": 12600,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Selected Cancellation Reason",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:14.7",
+            "end": "00:16.2",
+            "details": "User clicked on the reason dropdown and selected 'Other' from the available options that included 'Too expensive', 'Not using it enough', 'Missing features', 'Technical issues', and 'Found a better alternative'.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 14700,
+            "end_ms_since": 16200,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Prompted for Additional Information",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:17.5",
+            "end": "00:19.8",
+            "details": "After selecting 'Other', a text field appeared with the prompt 'Please tell us more about why you're cancelling' with a note that this information helps improve the product. The modal also displayed buttons for 'Keep My Subscription' and 'Confirm Cancellation'.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 17500,
+            "end_ms_since": 19800,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Provided Business Change Explanation",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "00:22.3",
+            "end": "01:05.7",
+            "details": "User typed a detailed explanation: 'I'm leaving my current employer to start my own consulting business. I've been using this on behalf of my company for team projects, but now I'll just need basic functionality for my solo consulting work. I may need team features again in the future when my business grows, but for now the Free plan should be sufficient for my needs as an independent consultant.'",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 22300,
+            "end_ms_since": 65700,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Presented with Individual Plan Option",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "01:08.2",
+            "end": "01:28.5",
+            "details": "Based on the user's explanation, the system offered a tailored retention option: 'Starting your own business? We offer a special Solo Entrepreneur plan at $19.99/month with enhanced features over Free but lower cost than Pro. The first 3 months include a 25% discount to help during your transition.' Buttons now included 'Learn More About Solo Plan', 'Keep Current Pro Plan', and 'Continue with Cancellation'.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 68200,
+            "end_ms_since": 88500,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Viewed Solo Plan Details",
+          "date": "2024-11-10",
+          "status": "conversion_at_risk",
+          "recordingReel": {
+            "start": "01:30.6",
+            "end": "01:52.3",
+            "details": "User clicked 'Learn More About Solo Plan' which displayed a detailed feature comparison between the Free, Solo Entrepreneur, and Pro plans. They spent approximately 22 seconds reviewing the details, focusing on storage limits, export capabilities, and template access for the Solo plan.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 90600,
+            "end_ms_since": 112300,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Selected 'Continue with Cancellation'",
+          "date": "2024-11-10",
+          "status": "churned",
+          "recordingReel": {
+            "start": "01:55.7",
+            "end": "01:55.7",
+            "details": "After reviewing the Solo plan details, user returned to the cancellation flow and clicked 'Continue with Cancellation', declining the Solo Entrepreneur plan option.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 115700,
+            "end_ms_since": 115700,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Provided Additional Feedback",
+          "date": "2024-11-10",
+          "status": "churned",
+          "recordingReel": {
+            "start": "01:58.3",
+            "end": "02:28.9",
+            "details": "In the final feedback form, user wrote: 'The Solo plan looks good but I need to be cost-conscious as I start my business. I'll try the Free plan first and see if it meets my immediate needs. I've saved your Solo plan details and will likely upgrade in 3-6 months when my client base is established. Thanks for understanding - your product has been excellent for my team work and I'll recommend it to others.'",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 118300,
+            "end_ms_since": 148900,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Cancellation Confirmed",
+          "date": "2024-11-10",
+          "status": "churned",
+          "recordingReel": {
+            "start": "02:31.2",
+            "end": "02:36.8",
+            "details": "System displayed a confirmation message: 'Your Pro subscription has been cancelled. You will continue to have access to Pro features until November 15, 2024. After that, your account will automatically switch to the Free plan.' User clicked 'Close' to dismiss the notification.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 151200,
+            "end_ms_since": 156800,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Received Follow-up Email",
+          "date": "2024-11-15",
+          "status": "churned",
+          "recordingReel": {
+            "start": "00:00.0",
+            "end": "00:00.0",
+            "details": "System sent an automated email after the downgrade took effect with the subject 'Welcome to your Free plan & special offers for when you're ready to upgrade'. The email included a 30% discount coupon for the Solo plan valid for 90 days and a survey about the user's freelance business needs.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 0,
+            "end_ms_since": 0,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        },
+        {
+          "label": "Continued Free Plan Usage",
+          "date": "2024-11-20",
+          "status": "churned",
+          "recordingReel": {
+            "start": "00:00.0",
+            "end": "00:00.0",
+            "details": "Analytics data shows the user continued to use the Free plan regularly but with significantly different usage patterns - no team collaboration features, single-user sessions, and smaller project scopes typical of freelance work rather than corporate team projects.",
+            "filename": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries.json",
+            "start_ms_since": 0,
+            "end_ms_since": 0,
+            "recording_id": "export-6874l4f7-pq68-05rs-93tu-5v17wx48yz9a.ph-recording-chunk-summaries"
+          }
+        }
+      ],
+      "usage_metadata": {
+        "input_tokens": 25768,
+        "output_tokens": 5423,
+        "total_tokens": 31191
+      },
+      "_order": 2
+    }
+  }

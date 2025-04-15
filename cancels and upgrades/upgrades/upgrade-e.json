@@ -1,0 +1,340 @@
+{
+  "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Clicked 'Start for Free' Button",
+        "date": "2024-03-05",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:28.5",
+          "end": "00:28.5",
+          "details": "User clicked on the 'Start for Free' button located in the upper right corner of the homepage. This initiated the account creation process for the free trial.",
+          "filename": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 28500,
+          "end_ms_since": 28500,
+          "recording_id": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Continue with Google' in Modal",
+        "date": "2024-03-05",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:31.2",
+          "end": "00:31.2",
+          "details": "In the sign-up modal, user chose the 'Continue with Google' option for authentication rather than creating credentials manually. This initiated the Google OAuth flow.",
+          "filename": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 31200,
+          "end_ms_since": 31200,
+          "recording_id": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Feature Walkthrough",
+        "date": "2024-03-05",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "03:45.8",
+          "end": "04:32.6",
+          "details": "User completed the guided feature walkthrough showing key platform functionality. The final screen highlighted that advanced analytics features were available in the Pro plan.",
+          "filename": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 225800,
+          "end_ms_since": 272600,
+          "recording_id": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Created First Project",
+        "date": "2024-03-05",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "10:28.3",
+          "end": "11:45.7",
+          "details": "User created their first project and populated it with sample content. During this process, they hovered over several Pro-only features that were marked with a lock icon and 'Pro Feature' label.",
+          "filename": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 628300,
+          "end_ms_since": 705700,
+          "recording_id": "export-0196c4f3-b8ee-86fc-11d7-8b71cc94af9d.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 10235,
+      "output_tokens": 3392,
+      "total_tokens": 13627
+    },
+    "_order": 0
+  },
+  "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Encountered Message Limit Warning",
+        "date": "2024-03-07",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "28:12.5",
+          "end": "28:15.3",
+          "details": "While using the messaging feature, user encountered an alert stating '2 messages left - upgrade to Pro for unlimited messages'. This warning appeared prominently in the chat interface.",
+          "filename": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1692500,
+          "end_ms_since": 1695300,
+          "recording_id": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade' Link in Message Limit Warning",
+        "date": "2024-03-07",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "28:16.8",
+          "end": "28:16.8",
+          "details": "User clicked on the 'upgrade' hyperlink within the message limit warning. This directed them to the pricing page showing Free, Pro, and Enterprise plan options.",
+          "filename": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1696800,
+          "end_ms_since": 1696800,
+          "recording_id": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Compared Messaging Limits Across Plans",
+        "date": "2024-03-07",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "28:30.4",
+          "end": "28:35.2",
+          "details": "On the pricing page, user examined the messaging limits section of the feature comparison table. They could see that the Free plan offered 50 messages per month while the Pro plan offered unlimited messaging.",
+          "filename": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1710400,
+          "end_ms_since": 1715200,
+          "recording_id": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-03-07",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "28:42.3",
+          "end": "28:42.3",
+          "details": "User clicked the 'Upgrade to Pro' button in the Pro plan section to begin the checkout process.",
+          "filename": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1722300,
+          "end_ms_since": 1722300,
+          "recording_id": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Encountered Payment Form Error",
+        "date": "2024-03-07",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "29:25.7",
+          "end": "29:28.3",
+          "details": "After entering credit card information, user received an error message: 'Invalid card number. Please check and try again.' The card number field was highlighted in red. User closed the checkout modal without resolving the error.",
+          "filename": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries.json",
+          "start_ms_since": 1765700,
+          "end_ms_since": 1768300,
+          "recording_id": "export-0196c5d7-c9ff-87ad-12e8-9c82dd95fa8e.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 22784,
+      "output_tokens": 3652,
+      "total_tokens": 26436
+    },
+    "_order": 1
+  },
+  "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Accessed Account Settings",
+        "date": "2024-03-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:07.3",
+          "end": "00:08.9",
+          "details": "User clicked on their profile avatar in the top-right corner of the interface, revealing a dropdown menu. They selected 'Settings' from this menu to access their account settings.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 8900,
+          "start_ms_since": 7300,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Subscription' Tab",
+        "date": "2024-03-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:10.5",
+          "end": "00:10.9",
+          "details": "Within the settings page, user clicked on the 'Subscription' tab in the left sidebar navigation. This displayed their current Free plan status and available upgrade options.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 10900,
+          "start_ms_since": 10500,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Subscription Plans",
+        "date": "2024-03-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:11.2",
+          "end": "00:16.8",
+          "details": "The subscription page displayed three plan cards (Free, Pro, and Enterprise) with detailed feature comparisons and pricing. The user's current Free plan was highlighted with a 'Current' indicator.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 16800,
+          "start_ms_since": 11200,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Switched to Annual Billing Option",
+        "date": "2024-03-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:18.3",
+          "end": "00:18.3",
+          "details": "User toggled from monthly to annual billing using the switch at the top of the pricing page. The display updated to show annual prices with a '20% savings' label.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 18300,
+          "start_ms_since": 18300,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:25.7",
+          "end": "00:25.7",
+          "details": "User clicked the 'Upgrade to Pro' button in the Pro plan card to initiate the checkout process.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 25700,
+          "start_ms_since": 25700,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Started Filling Payment Form",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:35.2",
+          "end": "00:58.6",
+          "details": "User began entering payment information in the checkout form, including cardholder name, card number, expiration date, and CVV code.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 58600,
+          "start_ms_since": 35200,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Encountered Expiration Date Error",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:02.3",
+          "end": "01:05.8",
+          "details": "User received an error message stating 'Invalid expiration date. Card appears to be expired.' The expiration date field was highlighted in red. User corrected the date by changing it to a future date.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 65800,
+          "start_ms_since": 62300,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Billing Address Fields",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:10.2",
+          "end": "01:28.7",
+          "details": "User completed the billing address portion of the form, entering street address, city, state, ZIP code, and country. All fields validated successfully with green checkmarks.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 88700,
+          "start_ms_since": 70200,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Complete Purchase' Button",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:30.5",
+          "end": "01:30.5",
+          "details": "User clicked the 'Complete Purchase' button at the bottom of the checkout form to finalize the transaction.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 90500,
+          "start_ms_since": 90500,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Received Payment Processing Error",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:33.8",
+          "end": "01:36.2",
+          "details": "After clicking 'Complete Purchase', user received an error message: 'Your card was declined. Please try a different payment method or contact your bank.' A red error banner appeared at the top of the form.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 96200,
+          "start_ms_since": 93800,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Changed Payment Method",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:45.3",
+          "end": "01:58.7",
+          "details": "User entered a different credit card number, expiration date, and CVV. The form validated all fields with green checkmarks indicating correct formatting.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 118700,
+          "start_ms_since": 105300,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Complete Purchase' Again",
+        "date": "2024-03-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "02:00.2",
+          "end": "02:00.2",
+          "details": "User clicked the 'Complete Purchase' button again with the new payment method to attempt the transaction a second time.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 120200,
+          "start_ms_since": 120200,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Payment Successful Popup Displayed",
+        "date": "2024-03-10",
+        "status": "converted",
+        "recordingReel": {
+          "start": "02:05.8",
+          "end": "02:10.4",
+          "details": "The interface displayed a modal popup stating 'Payment Successful. You're now subscribed to Pro' with a green checkmark icon. User reviewed the confirmation message showing subscription details and clicked the 'Done' button.",
+          "filename": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries.json",
+          "end_ms_since": 130400,
+          "start_ms_since": 125800,
+          "recording_id": "export-0196c6e8-daaa-88be-13f9-0d93ee06fb9f.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 33725,
+      "output_tokens": 4819,
+      "total_tokens": 38544
+    },
+    "_order": 2
+  }
+}

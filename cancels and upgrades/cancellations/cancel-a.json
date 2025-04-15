@@ -1,0 +1,284 @@
+{
+  "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Click 'Start for Free' Button",
+        "date": "2024-05-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:42.5",
+          "end": "00:42.5",
+          "details": "User clicked on the 'Start for Free' button in the upper right corner of the homepage. This initiated the account creation process.",
+          "filename": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 42500,
+          "end_ms_since": 42500,
+          "recording_id": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Continue with Google' in Sign-up Modal",
+        "date": "2024-05-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:45.3",
+          "end": "00:45.3",
+          "details": "After the 'Start for Free' click, a sign-up modal appeared with authentication options. User selected 'Continue with Google' to proceed with the OAuth authentication flow.",
+          "filename": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 45300,
+          "end_ms_since": 45300,
+          "recording_id": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Onboarding",
+        "date": "2024-05-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "03:15.8",
+          "end": "04:22.7",
+          "details": "User completed the guided onboarding process which introduced key platform features. During this process, they encountered several Pro features that were locked behind the premium tier.",
+          "filename": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 195800,
+          "end_ms_since": 262700,
+          "recording_id": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Navigated to Settings and Plans Page",
+        "date": "2024-05-10",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "08:34.6",
+          "end": "08:36.2",
+          "details": "User clicked on 'Settings' in the sidebar, then selected 'Plans' from the settings navigation. This displayed the pricing plans page showing Free, Pro, and Enterprise options with their features and pricing.",
+          "filename": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 514600,
+          "end_ms_since": 516200,
+          "recording_id": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-05-10",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "08:42.3",
+          "end": "08:42.3",
+          "details": "User clicked the 'Upgrade to Pro' button in the Pro plan card to initiate the checkout process.",
+          "filename": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 522300,
+          "end_ms_since": 522300,
+          "recording_id": "export-0196f8c7-fcaa-91ec-17dc-2f94aa30af9a.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 10156,
+      "output_tokens": 3428,
+      "total_tokens": 13584
+    },
+    "_order": 0
+  },
+  "export-0196f9d8-adbb-92fd-18ed-3a05bb41af0b.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Payment Successful Popup Displayed",
+        "date": "2024-05-10",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:25.9",
+          "end": "01:29.3",
+          "details": "A modal popup appeared with the message 'Payment Successful. You're now subscribed to Pro'. User clicked the 'Done' button after reviewing the confirmation.",
+          "filename": "export-0196f9d8-adbb-92fd-18ed-3a05bb41af0b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 85900,
+          "end_ms_since": 89300,
+          "recording_id": "export-0196f9d8-adbb-92fd-18ed-3a05bb41af0b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Used Advanced Pro Features",
+        "date": "2024-05-10",
+        "status": "converted",
+        "recordingReel": {
+          "start": "05:42.6",
+          "end": "08:17.3",
+          "details": "After upgrading, user accessed several Pro-only features including advanced component libraries and unlimited messaging. The interface displayed a 'Pro' badge next to the user's profile, confirming active Pro subscription status.",
+          "filename": "export-0196f9d8-adbb-92fd-18ed-3a05bb41af0b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 342600,
+          "end_ms_since": 497300,
+          "recording_id": "export-0196f9d8-adbb-92fd-18ed-3a05bb41af0b.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 23175,
+      "output_tokens": 3582,
+      "total_tokens": 26757
+    },
+    "_order": 1
+  },
+  "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Accessed Account Settings",
+        "date": "2024-06-15",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:08.2",
+          "end": "00:09.1",
+          "details": "User clicked on the 'Settings' option in the left sidebar. The interface transitioned from the project screen to the settings page with tabs for Profile, Plans, and Billing.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 9100,
+          "start_ms_since": 8200,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Navigated to Billing Page",
+        "date": "2024-06-15",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:10.5",
+          "end": "00:11.2",
+          "details": "In the settings page, user clicked on 'Billing' in the sidebar navigation. This displayed the current subscription details showing 'Current Plan: Pro' with next billing date and payment information.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 11200,
+          "start_ms_since": 10500,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Current Subscription Details",
+        "date": "2024-06-15",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:15.7",
+          "end": "00:28.3",
+          "details": "User reviewed their current Pro subscription details including monthly cost, renewal date, and features included. A 'Manage Subscription' button was visible at the bottom of the subscription details card.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 28300,
+          "start_ms_since": 15700,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Manage Subscription' Button",
+        "date": "2024-06-15",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:30.2",
+          "end": "00:30.2",
+          "details": "User clicked the 'Manage Subscription' button, which expanded a dropdown menu with options including 'Update Payment Method', 'Change Plan', and 'Cancel Subscription'.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 30200,
+          "start_ms_since": 30200,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Cancel Subscription' Option",
+        "date": "2024-06-15",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:33.8",
+          "end": "00:33.8",
+          "details": "User clicked on the 'Cancel Subscription' option from the dropdown menu. This opened a cancellation confirmation modal with a message explaining what features would be lost upon cancellation.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 33800,
+          "start_ms_since": 33800,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Cancellation Confirmation Modal",
+        "date": "2024-06-15",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:34.6",
+          "end": "00:45.2",
+          "details": "A modal appeared with the heading 'Cancel Your Pro Subscription?' explaining that cancellation would result in losing access to Pro features at the end of the current billing period. The modal included a dropdown asking 'Why are you cancelling?' and buttons for 'Keep My Subscription' and 'Confirm Cancellation'.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 45200,
+          "start_ms_since": 34600,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2024-06-15",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:48.3",
+          "end": "00:49.7",
+          "details": "User clicked on the 'Why are you cancelling?' dropdown and selected the reason 'Too expensive' from the list of options that included 'Not using it enough', 'Found an alternative', 'Missing features', and 'Technical issues'.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 49700,
+          "start_ms_since": 48300,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Offered Retention Discount",
+        "date": "2024-06-15",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:51.4",
+          "end": "00:56.8",
+          "details": "After selecting 'Too expensive', the modal updated to show a special offer: 'How about 30% off for the next 3 months?' with a new button 'Keep Pro with Discount' appearing alongside the previous options.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 56800,
+          "start_ms_since": 51400,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Declined Retention Offer",
+        "date": "2024-06-15",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "01:02.5",
+          "end": "01:02.5",
+          "details": "User clicked the 'Confirm Cancellation' button, declining the discount offer and proceeding with the subscription cancellation.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 62500,
+          "start_ms_since": 62500,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Cancellation Confirmed",
+        "date": "2024-06-15",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:05.7",
+          "end": "01:08.3",
+          "details": "A confirmation message appeared stating 'Your Pro subscription has been cancelled. You will continue to have access to Pro features until the end of your current billing period on [date].' User clicked the 'Done' button to dismiss the notification.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 68300,
+          "start_ms_since": 65700,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Returned to Billing Page with Updated Status",
+        "date": "2024-06-15",
+        "status": "churned",
+        "recordingReel": {
+          "start": "01:09.2",
+          "end": "01:09.2",
+          "details": "The interface returned to the billing page, now showing 'Current Plan: Pro (Cancelling)' with a message explaining that the subscription would revert to the Free plan at the end of the current billing period. A 'Reactivate Subscription' button was now visible.",
+          "filename": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries.json",
+          "end_ms_since": 69200,
+          "start_ms_since": 69200,
+          "recording_id": "export-0196fae9-becc-93ae-19fe-4b16cc52ba0c.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 32568,
+      "output_tokens": 4273,
+      "total_tokens": 36841
+    },
+    "_order": 2
+  }
+}

@@ -1,0 +1,635 @@
+{% extends "base.html" %}
+
+{% block title %}{{ journey_id.capitalize() }} Journey Analysis | PathPilot{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Timeline Styles - completely revised */
+    .journey-timeline {
+        position: relative;
+        padding: 20px 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Vertical line */
+    .journey-timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 35px; /* Fixed position */
+        width: 2px;
+        height: 100%;
+        background: #e0e0e0;
+        z-index: 0;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 70px;
+    }
+
+    /* The bubble */
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 35px; /* EXACTLY the same as the line */
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        border-radius: 50%;
+        /* Center the bubble on the line */
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0 3px #6c757d;
+        transition: all 0.3s ease;
+        z-index: 2; /* Ensure bubble is above the line */
+    }
+
+    .timeline-item:hover::before {
+        transform: translate(-50%, -50%) scale(1.2);
+        box-shadow: 0 0 0 3px #6c757d, 0 0 0 6px rgba(108,117,125,0.2);
+    }
+
+    /* Collapsable step details */
+    .timeline-item .step-details {
+        max-height: 0;
+        overflow: hidden;
+        background: #f8f9fa;
+        border-radius: 8px;
+        transition: max-height 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .timeline-item .step-details.expanded {
+        max-height: 300px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .timeline-item .step-header {
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 8px;
+        transition: background-color 0.2s ease;
+    }
+
+    .timeline-item .step-header:hover {
+        background-color: #f8f9fa;
+    }
+
+    /* Status-specific styles with colors */
+    .timeline-item[data-status="non-converted"]::before {
+        box-shadow: 0 0 0 3px #6c757d;
+    }
+
+    .timeline-item[data-status="attempted_conversion"]::before {
+        box-shadow: 0 0 0 3px #0d6efd;
+    }
+
+    .timeline-item[data-status="converted"]::before {
+        box-shadow: 0 0 0 3px #198754;
+    }
+
+    .timeline-item[data-status="conversion_at_risk"]::before {
+        box-shadow: 0 0 0 3px #fd7e14;
+    }
+
+    .timeline-item[data-status="churned"]::before {
+        box-shadow: 0 0 0 3px #dc3545;
+    }
+
+    /* Responsive Timeline */
+    @media (max-width: 768px) {
+        .journey-timeline::before {
+            left: 20px;
+        }
+        
+        .timeline-item {
+            padding-left: 45px;
+        }
+        
+        .timeline-item::before {
+            left: 20px;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="flex flex-col space-y-8">
+    <!-- Header -->
+    <div class="flex flex-col space-y-2 fadeIn">
+        <a href="/" class="text-primary hover:text-primary-dark flex items-center w-fit mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to all journeys
+        </a>
+        <h1 class="text-3xl font-bold">{{ journey_id.capitalize() }} Journey Analysis</h1>
+        <div class="flex items-center space-x-2">
+            <span class="text-sm font-medium px-3 py-1 rounded-full 
+            {% if journey_type == 'upgrades' %}
+            bg-green-100 text-green-700
+            {% else %}
+            bg-red-100 text-red-700
+            {% endif %}
+            ">
+                {{ journey_type|capitalize }}
+            </span>
+            <span class="text-neutral-500">•</span>
+            <span class="text-neutral-600">{{ journey_data.steps|length }} steps</span>
+        </div>
+    </div>
+    
+    <!-- Analysis and Prediction -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Journey Summary -->
+        <div class="col-span-2 bg-white shadow rounded-lg p-6 fadeIn" style="animation-delay: 0.1s">
+            <h2 class="text-xl font-bold mb-4">Journey Summary</h2>
+            
+            <div id="analysis-container">
+                {% if ai_analysis and 'error' not in ai_analysis %}
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-medium text-neutral-700 mb-2">Overview</h3>
+                            <p class="text-neutral-600">{{ ai_analysis.summary }}</p>
+                        </div>
+                        
+                        <div>
+                            <h3 class="font-medium text-neutral-700 mb-2">Key Insights</h3>
+                            <ul class="list-disc pl-5 text-neutral-600 space-y-1">
+                                {% for insight in ai_analysis.key_insights %}
+                                    <li>{{ insight }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="font-medium text-neutral-700 mb-2">Critical Decision Points</h3>
+                            <ul class="list-disc pl-5 text-neutral-600 space-y-1">
+                                {% for point in ai_analysis.critical_points %}
+                                    <li>{{ point }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="font-medium text-neutral-700 mb-2">Recommendations</h3>
+                            <ul class="list-disc pl-5 text-neutral-600 space-y-1">
+                                {% for suggestion in ai_analysis.suggestions %}
+                                    <li>{{ suggestion }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="text-center py-6">
+                        <div class="loader mb-4"></div>
+                        <p class="text-neutral-500">Generating AI analysis...</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <!-- Prediction Card -->
+        <div class="bg-white shadow rounded-lg p-6 fadeIn hover:shadow-lg transition-all duration-300 cursor-pointer" 
+             style="animation-delay: 0.2s" 
+             id="prediction-card"
+             onclick="openPredictionModal()">
+            <div class="absolute top-3 right-3 text-neutral-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+            </div>
+            <h2 class="text-xl font-bold mb-4">Journey Prediction</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-neutral-50 p-4 rounded-lg">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-medium text-neutral-700">Outcome Prediction</h3>
+                        
+                        {% if prediction == "upgrade" %}
+                            <span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Likely to Upgrade</span>
+                        {% elif prediction == "cancel" %}
+                            <span class="px-2 py-1 bg-red-100 text-red-700 rounded-full text-xs font-medium">Likely to Cancel</span>
+                        {% else %}
+                            <span class="px-2 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-medium">Uncertain</span>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="w-full bg-neutral-200 rounded-full h-2.5">
+                        <div class="h-2.5 rounded-full progress-bar"
+                             data-confidence="{{ confidence * 100 }}"
+                             data-prediction="{{ prediction }}"
+                             style="width: 0%;"></div>
+                    </div>
+                    <p class="text-xs text-neutral-500 mt-1">Confidence: {{ (confidence * 100)|round|int }}%</p>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-neutral-700 mb-2">Journey Fingerprint</h3>
+                    <div class="bg-neutral-50 p-4 rounded-lg text-sm">
+                        <div class="grid grid-cols-2 gap-x-4 gap-y-2">
+                            <div>
+                                <p class="text-neutral-500">Steps:</p>
+                                <p class="font-medium">{{ fingerprint.step_count }}</p>
+                            </div>
+                            <div>
+                                <p class="text-neutral-500">Time Spent:</p>
+                                <p class="font-medium">{{ (fingerprint.total_time_ms / 1000)|round|int }} seconds</p>
+                            </div>
+                            <div>
+                                <p class="text-neutral-500">Upgrade Indicators:</p>
+                                <p class="font-medium">{{ fingerprint.upgrade_indicator_count }}</p>
+                            </div>
+                            <div>
+                                <p class="text-neutral-500">Cancel Indicators:</p>
+                                <p class="font-medium">{{ fingerprint.cancel_indicator_count }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-xs text-neutral-400 text-center mt-2">Click for more detailed analysis</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Journey Timeline -->
+    <div class="bg-white shadow rounded-lg p-6 fadeIn" style="animation-delay: 0.3s">
+        <h2 class="text-xl font-bold mb-4">Journey Timeline</h2>
+        
+        {% if journey_data.steps %}
+            <div class="journey-timeline" id="timeline-container">
+                {% for step in journey_data.steps %}
+                    {% set seconds = (step.recordingReel.time_since_previous / 1000)|round|int if step.recordingReel.time_since_previous else 0 %}
+                    {% if seconds >= 60 %}
+                        {% set minutes = (seconds / 60)|round|int %}
+                        {% set remaining_seconds = seconds % 60 %}
+                        {% set time_display = minutes ~ ' min ' ~ remaining_seconds ~ ' sec' %}
+                    {% else %}
+                        {% set time_display = seconds ~ ' sec' %}
+                    {% endif %}
+                    <div class="timeline-item" data-status="{{ step.status|replace('_', '-') }}" data-step-index="{{ loop.index0 }}">
+                        <div class="w-full bg-white rounded-lg shadow-sm">
+                            <div class="p-4">
+                                <div class="flex items-center justify-between mb-2 step-header" onclick="toggleStepDetails(this)">
+                                    <div class="flex items-center">
+                                        <h3 class="font-medium">{{ step.label }}</h3>
+                                        <span class="status-badge status-{{ step.status|replace('_', '-') }} ml-2">{{ step.status_detail }}</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <span class="text-sm bg-neutral-100 px-2 py-0.5 rounded-full text-neutral-600 mr-2">{{ time_display }}</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-neutral-400 expand-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                
+                                <div class="step-details">
+                                    <div class="bg-neutral-50 rounded-lg p-4">
+                                        <p class="text-neutral-700">{{ step.recordingReel.details }}</p>
+                                        <div class="mt-2 text-sm text-neutral-500">
+                                            <p>Time: {{ step.recordingReel.start }} - {{ step.recordingReel.end }}</p>
+                                            {% if step.duration_ms and step.duration_ms > 0 %}
+                                                <p>Duration: {{ (step.duration_ms / 1000)|round(1) }} seconds</p>
+                                            {% else %}
+                                                <p>Duration: Not available</p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="text-center py-6">
+                <div class="loader mb-4"></div>
+                <p class="text-neutral-500 italic">Loading journey data...</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Modal for detailed prediction -->
+<div id="prediction-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden fadeIn">
+    <div class="bg-white rounded-lg w-11/12 max-w-4xl h-5/6 overflow-y-auto relative">
+        <button onclick="closePredictionModal()" class="absolute top-4 right-4 text-neutral-500 hover:text-neutral-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        
+        <div class="p-8">
+            <h2 class="text-2xl font-bold mb-6">Detailed User Analysis</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="col-span-1">
+                    <!-- User Persona -->
+                    <div class="bg-neutral-50 p-6 rounded-lg text-center">
+                        <div class="mb-4 mx-auto">
+                            <!-- Different persona icons based on journey type -->
+                            {% if prediction == 'upgrade' %}
+                                <div class="h-24 w-24 mx-auto bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-green-700 mt-4">Growth-Focused User</h3>
+                            {% elif prediction == 'cancel' %}
+                                <div class="h-24 w-24 mx-auto bg-red-100 text-red-600 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-red-700 mt-4">Dissatisfied User</h3>
+                            {% else %}
+                                <div class="h-24 w-24 mx-auto bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-yellow-700 mt-4">Exploring User</h3>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="text-left mt-6">
+                            <h4 class="font-medium text-neutral-700 mb-2">Characteristics:</h4>
+                            <ul class="text-sm text-neutral-600 space-y-2">
+                                {% if prediction == 'upgrade' %}
+                                    <li>• Values premium features</li>
+                                    <li>• Willing to invest in quality</li>
+                                    <li>• Actively explores product capabilities</li>
+                                    <li>• Likely to be a long-term customer</li>
+                                {% elif prediction == 'cancel' %}
+                                    <li>• Encountered friction points</li>
+                                    <li>• Price-sensitive</li>
+                                    <li>• May have had specific unmet needs</li>
+                                    <li>• Potential for win-back with targeted offers</li>
+                                {% else %}
+                                    <li>• Still evaluating product fit</li>
+                                    <li>• Comparing options</li>
+                                    <li>• Looking for specific value triggers</li>
+                                    <li>• Needs more targeted messaging</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-span-2">
+                    <!-- Detailed prediction information -->
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-bold mb-3">Prediction Details</h3>
+                            <div class="bg-neutral-50 p-5 rounded-lg">
+                                <div class="flex items-center justify-between mb-3">
+                                    <h4 class="font-medium">Outcome</h4>
+                                    {% if prediction == "upgrade" %}
+                                        <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full font-medium">Likely to Upgrade</span>
+                                    {% elif prediction == "cancel" %}
+                                        <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full font-medium">Likely to Cancel</span>
+                                    {% else %}
+                                        <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full font-medium">Uncertain</span>
+                                    {% endif %}
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <h4 class="font-medium mb-2">Confidence Level</h4>
+                                    <div class="w-full bg-neutral-200 rounded-full h-4">
+                                        <div class="h-4 rounded-full progress-bar"
+                                             data-confidence="{{ confidence * 100 }}"
+                                             data-prediction="{{ prediction }}"
+                                             style="width: 0%;"></div>
+                                    </div>
+                                    <p class="text-sm text-neutral-500 mt-1">{{ (confidence * 100)|round|int }}% confidence</p>
+                                </div>
+                                
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <h4 class="font-medium mb-1">Upgrade Signals</h4>
+                                        <p class="text-lg font-bold">{{ fingerprint.upgrade_indicator_count }}</p>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium mb-1">Cancel Signals</h4>
+                                        <p class="text-lg font-bold">{{ fingerprint.cancel_indicator_count }}</p>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium mb-1">Time Invested</h4>
+                                        <p class="text-lg font-bold">{{ (fingerprint.total_time_ms / 60000)|round(1) }} minutes</p>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium mb-1">Journey Steps</h4>
+                                        <p class="text-lg font-bold">{{ fingerprint.step_count }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-bold mb-3">Key Behaviors</h3>
+                            <div class="bg-neutral-50 p-5 rounded-lg">
+                                <ul class="space-y-3">
+                                    {% for status, count in fingerprint.status_distribution.items() %}
+                                        {% set percent = (count * 100)|round|int %}
+                                        {% set barColor = "bg-purple-500" %}
+                                        {% if status == 'non-converted' %}
+                                            {% set barColor = "bg-neutral-500" %}
+                                            {% set statusLabel = "Exploring" %}
+                                        {% elif status == 'attempted_conversion' %}
+                                            {% set barColor = "bg-blue-500" %}
+                                            {% set statusLabel = "Considering Purchase" %}
+                                        {% elif status == 'converted' %}
+                                            {% set barColor = "bg-green-500" %}
+                                            {% set statusLabel = "Completed Purchase" %}
+                                        {% elif status == 'conversion_at_risk' %}
+                                            {% set barColor = "bg-yellow-500" %}
+                                            {% set statusLabel = "Considering Cancellation" %}
+                                        {% elif status == 'churned' %}
+                                            {% set barColor = "bg-red-500" %}
+                                            {% set statusLabel = "Cancelled" %}
+                                        {% else %}
+                                            {% set statusLabel = status|replace('_', ' ')|capitalize %}
+                                        {% endif %}
+                                        <li class="flex items-center justify-between">
+                                            <span class="font-medium">{{ statusLabel }}</span>
+                                            <div class="flex items-center">
+                                                <div class="w-40 bg-neutral-200 rounded-full h-2 mr-2">
+                                                    <div class="h-2 rounded-full {{ barColor }}" style="width: {{ percent }}%"></div>
+                                                </div>
+                                                <span class="text-sm">{{ percent }}%</span>
+                                            </div>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        {% if ai_analysis and 'prediction' in ai_analysis %}
+                        <div>
+                            <h3 class="text-xl font-bold mb-3">AI Analysis</h3>
+                            <div class="bg-neutral-50 p-5 rounded-lg">
+                                <p class="text-neutral-700">{{ ai_analysis.prediction }}</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        <div>
+                            <h3 class="text-xl font-bold mb-3">Recommended Actions</h3>
+                            <div class="bg-neutral-50 p-5 rounded-lg">
+                                <ul class="space-y-2">
+                                    {% if prediction == 'upgrade' %}
+                                        <li class="flex items-start">
+                                            <div class="text-green-500 mr-2 mt-0.5">✓</div>
+                                            <p>Send personalized onboarding email highlighting advanced features</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-green-500 mr-2 mt-0.5">✓</div>
+                                            <p>Schedule a check-in call after 30 days of premium usage</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-green-500 mr-2 mt-0.5">✓</div>
+                                            <p>Flag as potential referral partner or testimonial candidate</p>
+                                        </li>
+                                    {% elif prediction == 'cancel' %}
+                                        <li class="flex items-start">
+                                            <div class="text-red-500 mr-2 mt-0.5">!</div>
+                                            <p>Send a targeted win-back campaign with special offer</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-red-500 mr-2 mt-0.5">!</div>
+                                            <p>Schedule product team review of friction points in journey</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-red-500 mr-2 mt-0.5">!</div>
+                                            <p>Conduct exit survey to gather specific feedback</p>
+                                        </li>
+                                    {% else %}
+                                        <li class="flex items-start">
+                                            <div class="text-yellow-500 mr-2 mt-0.5">→</div>
+                                            <p>Send targeted content showcasing key features</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-yellow-500 mr-2 mt-0.5">→</div>
+                                            <p>Offer limited-time trial of premium features</p>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <div class="text-yellow-500 mr-2 mt-0.5">→</div>
+                                            <p>Schedule personalized demo to address specific needs</p>
+                                        </li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="{{ url_for('static', filename='js/progress-bar.js') }}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize progress bars
+        const progressBars = document.querySelectorAll('.progress-bar');
+        progressBars.forEach(bar => {
+            const confidence = bar.dataset.confidence;
+            const prediction = bar.dataset.prediction;
+            
+            // Set width based on confidence
+            setTimeout(() => {
+                bar.style.width = confidence + '%';
+                
+                // Set color based on prediction
+                if (prediction === 'upgrade') {
+                    bar.classList.add('bg-green-500');
+                } else if (prediction === 'cancel') {
+                    bar.classList.add('bg-red-500');
+                } else {
+                    bar.classList.add('bg-yellow-500');
+                }
+            }, 300);
+        });
+        
+        // Initialize timeline interactions
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        timelineItems.forEach(item => {
+            // Add hover animation
+            item.addEventListener('mouseenter', () => {
+                item.classList.add('shadow-md');
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                item.classList.remove('shadow-md');
+            });
+        });
+    });
+    
+    // Function to toggle step details
+    function toggleStepDetails(headerElement) {
+        const detailsElement = headerElement.parentElement.querySelector('.step-details');
+        const expandIcon = headerElement.querySelector('.expand-icon');
+        
+        // Toggle expanded class
+        detailsElement.classList.toggle('expanded');
+        
+        // Rotate the expand icon
+        if (detailsElement.classList.contains('expanded')) {
+            expandIcon.style.transform = 'rotate(180deg)';
+        } else {
+            expandIcon.style.transform = 'rotate(0)';
+        }
+    }
+    
+    // Prediction modal functions
+    function openPredictionModal() {
+        const modal = document.getElementById('prediction-modal');
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        
+        // Initialize modal progress bars
+        const modalProgressBars = modal.querySelectorAll('.progress-bar');
+        modalProgressBars.forEach(bar => {
+            const confidence = bar.dataset.confidence;
+            const prediction = bar.dataset.prediction;
+            
+            // Set width based on confidence
+            setTimeout(() => {
+                bar.style.width = confidence + '%';
+                
+                // Set color based on prediction
+                if (prediction === 'upgrade') {
+                    bar.classList.add('bg-green-500');
+                } else if (prediction === 'cancel') {
+                    bar.classList.add('bg-red-500');
+                } else {
+                    bar.classList.add('bg-yellow-500');
+                }
+            }, 300);
+        });
+    }
+    
+    function closePredictionModal() {
+        const modal = document.getElementById('prediction-modal');
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+</script>
+{% endblock %} 

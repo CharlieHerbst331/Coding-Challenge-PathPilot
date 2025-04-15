@@ -1,0 +1,284 @@
+{
+  "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Clicked 'Get Free Access' Button",
+        "date": "2024-02-08",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:51.3",
+          "end": "00:51.3",
+          "details": "User clicked on the 'Get Free Access' button prominently displayed in the center of the landing page hero section. This begins the account creation process.",
+          "filename": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 51300,
+          "end_ms_since": 51300,
+          "recording_id": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected 'Continue with Google' in Sign-up Modal",
+        "date": "2024-02-08",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:54.7",
+          "end": "00:54.7",
+          "details": "In the account creation modal, user selected the 'Continue with Google' option instead of manual email registration. This initiated the OAuth authentication flow with Google.",
+          "filename": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 54700,
+          "end_ms_since": 54700,
+          "recording_id": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Completed Getting Started Tutorial",
+        "date": "2024-02-08",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "05:23.5",
+          "end": "07:45.2",
+          "details": "User completed the interactive onboarding tutorial showcasing key product features. The final screen of the tutorial mentioned advanced features available in the Pro plan.",
+          "filename": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 323500,
+          "end_ms_since": 465200,
+          "recording_id": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Reached File Storage Limit Notification",
+        "date": "2024-02-08",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "15:32.8",
+          "end": "15:33.5",
+          "details": "While attempting to upload a new file, user encountered a notification stating 'Free account storage limit (500MB) reached. Delete existing files or upgrade to Pro for 50GB storage.'",
+          "filename": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 932800,
+          "end_ms_since": 933500,
+          "recording_id": "export-0196a3d2-e7bb-79ef-8e35-7f48ff61fc7d.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 10158,
+      "output_tokens": 3482,
+      "total_tokens": 13640
+    },
+    "_order": 0
+  },
+  "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Viewed Personal Usage Dashboard",
+        "date": "2024-02-12",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "12:05.3",
+          "end": "12:08.7",
+          "details": "User accessed their usage dashboard showing storage, collaboration, and feature utilization metrics. Storage indicator showed 98% used (490MB/500MB) with a warning icon and 'Upgrade recommended' message.",
+          "filename": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 725300,
+          "end_ms_since": 728700,
+          "recording_id": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Compare Plans' from Dashboard",
+        "date": "2024-02-12",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "12:10.2",
+          "end": "12:10.2",
+          "details": "User clicked on the 'Compare Plans' button in the dashboard header. This navigated them to the pricing comparison page showing Free, Pro, and Enterprise tiers.",
+          "filename": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 730200,
+          "end_ms_since": 730200,
+          "recording_id": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Storage Comparison Between Plans",
+        "date": "2024-02-12",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "12:25.8",
+          "end": "12:28.3",
+          "details": "On the pricing page, user expanded the 'Storage & Files' section to view detailed storage limits for each plan. The comparison highlighted 500MB for Free plan vs 50GB for Pro plan with a visual storage meter.",
+          "filename": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 745800,
+          "end_ms_since": 748300,
+          "recording_id": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-02-12",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "12:42.5",
+          "end": "12:42.5",
+          "details": "User clicked the 'Upgrade to Pro' button in the Pro column of the pricing table. The button was located directly below the plan that offered 50GB storage.",
+          "filename": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 762500,
+          "end_ms_since": 762500,
+          "recording_id": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Exited Checkout Without Completing",
+        "date": "2024-02-12",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "13:05.7",
+          "end": "13:05.7",
+          "details": "After viewing the payment form but before entering any payment details, user clicked the 'X' in the top corner of the checkout modal to close it without completing the purchase.",
+          "filename": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries.json",
+          "start_ms_since": 785700,
+          "end_ms_since": 785700,
+          "recording_id": "export-0196a4c5-f8cc-84fa-9e46-8f59aa72fd9d.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 23456,
+      "output_tokens": 3725,
+      "total_tokens": 27181
+    },
+    "_order": 1
+  },
+  "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Received 'Limited Time Offer' Banner",
+        "date": "2024-02-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:03.6",
+          "end": "00:05.2",
+          "details": "Upon logging in, user was shown a banner at the top of the dashboard stating '40% off Pro plan for the next 48 hours - Upgrade now to save' with a countdown timer.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 5200,
+          "start_ms_since": 3600,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade Now' on Promotional Banner",
+        "date": "2024-02-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:12.5",
+          "end": "00:12.8",
+          "details": "User clicked the 'Upgrade Now' button on the promotional banner, showing interest in the limited-time discount offer. This directed them to a special promotional pricing page.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 12800,
+          "start_ms_since": 12500,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Viewed Discounted Pro Plan Details",
+        "date": "2024-02-15",
+        "status": "non-converted",
+        "recordingReel": {
+          "start": "00:15.4",
+          "end": "00:26.2",
+          "details": "The special promotion page displayed the Pro plan with original price crossed out and the discounted price highlighted. User spent time reviewing the included features, especially focusing on the storage increase from 500MB to 50GB.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 26200,
+          "start_ms_since": 15400,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Annual Billing Option",
+        "date": "2024-02-15",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:28.7",
+          "end": "00:28.7",
+          "details": "User toggled from monthly to annual billing option, which displayed additional savings. The interface showed both the promotional 40% discount and the standard 20% annual discount applied together.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 28700,
+          "start_ms_since": 28700,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Upgrade to Pro' Button",
+        "date": "2024-02-15",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "00:35.2",
+          "end": "00:35.2",
+          "details": "User clicked the 'Upgrade to Pro' button on the promotion page to proceed with the discounted purchase. This opened the checkout process.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 35200,
+          "start_ms_since": 35200,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Entered Payment Information",
+        "date": "2024-02-15",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:08.3",
+          "end": "01:22.5",
+          "details": "User completed all fields in the payment form including credit card details, billing address, and contact information. The system validated each field with green checkmarks as information was entered correctly.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 82500,
+          "start_ms_since": 68300,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Applied Discount Code",
+        "date": "2024-02-15",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:25.7",
+          "end": "01:27.8",
+          "details": "User entered a discount code 'FLASH40' in the promo code field and clicked 'Apply'. The system confirmed the code was valid and updated the total to reflect the additional discount.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 87800,
+          "start_ms_since": 85700,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Complete Purchase' Button",
+        "date": "2024-02-15",
+        "status": "attempted_conversion",
+        "recordingReel": {
+          "start": "01:30.4",
+          "end": "01:30.4",
+          "details": "User clicked the 'Complete Purchase' button at the bottom of the checkout form to finalize the transaction with the discounted Pro plan.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 90400,
+          "start_ms_since": 90400,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Payment Successful Popup Displayed",
+        "date": "2024-02-15",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:35.2",
+          "end": "01:40.7",
+          "details": "A modal popup appeared with the message 'Payment Successful. You're now subscribed to Pro' along with a confirmation of the discounted rate and next billing date. User clicked the 'Done' button after reviewing the confirmation.",
+          "filename": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries.json",
+          "end_ms_since": 100700,
+          "start_ms_since": 95200,
+          "recording_id": "export-0196a7e8-a9dd-85fb-10c6-9a60bb83fe8e.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 31937,
+      "output_tokens": 4526,
+      "total_tokens": 36463
+    },
+    "_order": 2
+  }
+}

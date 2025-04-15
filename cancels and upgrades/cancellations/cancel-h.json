@@ -1,0 +1,326 @@
+{
+  "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Regular Pro Account Usage",
+        "date": "2025-01-08",
+        "status": "converted",
+        "recordingReel": {
+          "start": "00:03.8",
+          "end": "01:15.2",
+          "details": "User logged in and engaged with their existing projects. The account showed consistent usage patterns over the past 4 months since subscribing to Pro. User primarily utilized the content creation and scheduling features for social media management campaigns.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 3800,
+          "end_ms_since": 75200,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "New AI Assistant Feature Notice",
+        "date": "2025-01-08",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:18.7",
+          "end": "01:25.3",
+          "details": "User received an in-app notification about a new Pro feature: 'Try our new AI Content Assistant - now available for all Pro users!' The notification highlighted that the assistant could help generate social media copy, suggest content improvements, and answer product questions. User clicked 'Try Now' to access the feature.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 78700,
+          "end_ms_since": 85300,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Initial AI Assistant Interaction",
+        "date": "2025-01-08",
+        "status": "converted",
+        "recordingReel": {
+          "start": "01:28.9",
+          "end": "02:45.3",
+          "details": "User interacted with the AI Content Assistant, asking it to 'Generate 3 Instagram post ideas for a family-owned bakery'. The assistant provided reasonable suggestions about seasonal offerings, behind-the-scenes content, and customer testimonials. User then tried another prompt about Facebook ad copy for a coffee shop with similarly acceptable results.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 88900,
+          "end_ms_since": 165300,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Personal Client Content Query",
+        "date": "2025-01-08",
+        "status": "converted",
+        "recordingReel": {
+          "start": "02:50.6",
+          "end": "03:12.8",
+          "details": "User attempted a more specific query related to their client work: 'I need 5 Twitter post ideas for my client's home organization business. Their target audience is busy parents who want to declutter their homes. Their branding is friendly but professional.' The assistant began generating an apparently normal response.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 170600,
+          "end_ms_since": 192800,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "AI Chatbot Inappropriate Response",
+        "date": "2025-01-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "03:14.5",
+          "end": "03:42.7",
+          "details": "The AI assistant suddenly generated an inappropriate response that included the line: 'Tweet #4: Even your mom's cluttered junk drawer makes more sense than your chaotic playroom! Time to get organized with [Client Name].' The response also included other inappropriate suggestions about 'homes that look like disaster zones' and 'embarrassing before photos' that could be perceived as judging the user's potential clients.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 194500,
+          "end_ms_since": 222700,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "User Feedback Submission",
+        "date": "2025-01-08",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "03:45.3",
+          "end": "04:12.8",
+          "details": "User clicked the 'Report Inappropriate Response' button in the AI chat interface. They submitted feedback stating: 'This response is unprofessional and contains insulting language that I could never use with clients. The suggestion to mock potential customers' homes and the 'your mom' comment are completely inappropriate for a professional tool.' User then closed the AI assistant interface.",
+          "filename": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries.json",
+          "start_ms_since": 225300,
+          "end_ms_since": 252800,
+          "recording_id": "export-5327m1n2-op83-16qr-59st-4u98vw27xy4z.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 16842,
+      "output_tokens": 3245,
+      "total_tokens": 20087
+    },
+    "_order": 0
+  },
+  "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Second AI Assistant Attempt",
+        "date": "2025-01-10",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:05.2",
+          "end": "00:45.7",
+          "details": "User logged in two days later and cautiously tried the AI Content Assistant again with a different prompt: 'Write a professional email announcing a website redesign to clients.' The assistant initially provided an appropriate response, but then added a postscript that said 'P.S. I hope your website redesign turns out better than your previous attempt - even a child with crayons could have done better!' User immediately closed the assistant interface.",
+          "filename": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 5200,
+          "end_ms_since": 45700,
+          "recording_id": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Support Chat Initiation",
+        "date": "2025-01-10",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:48.3",
+          "end": "01:56.2",
+          "details": "User immediately opened the human support chat and reported the issue: 'Your AI assistant keeps generating unprofessional and insulting content. I've tried it twice and both times it included inappropriate remarks that I could never use with clients. This is the second time and it's worse than before. Is there a way to disable this feature or fix it?' Support agent acknowledged the issue and apologized, explaining they were investigating problems with their recently launched AI feature.",
+          "filename": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 48300,
+          "end_ms_since": 116200,
+          "recording_id": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Feature Deactivation Request",
+        "date": "2025-01-10",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:00.8",
+          "end": "02:35.3",
+          "details": "User asked support how to disable the AI assistant feature: 'I need to remove this from my account immediately. I can't risk generating content like this for client work.' Support explained that the feature couldn't be selectively disabled but assured the user they could simply not use the chat button. User expressed concern that they might accidentally click it or that it might appear in other areas of the platform.",
+          "filename": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 120800,
+          "end_ms_since": 155300,
+          "recording_id": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Alternative Service Research (External)",
+        "date": "2025-01-10",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:40.7",
+          "end": "03:28.5",
+          "details": "After the support conversation, browser integration data showed user opened a new tab and searched for 'reliable social media management tools for agencies'. They visited two competitor websites and read reviews specifically focused on content creation tools and reliability. One review screenshot captured mentioned 'consistent and professional AI tools' as a key feature of a competitor product.",
+          "filename": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries.json",
+          "start_ms_since": 160700,
+          "end_ms_since": 208500,
+          "recording_id": "export-5327n2o3-pq94-27rs-60tu-5v09wx38yz5a.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 19364,
+      "output_tokens": 3057,
+      "total_tokens": 22421
+    },
+    "_order": 1
+  },
+  "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries": {
+    "steps": [
+      {
+        "label": "Third Problematic AI Interaction",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:04.1",
+          "end": "00:32.6",
+          "details": "User logged in two days later to work on a project and accidentally triggered the AI assistant while trying to access the help documentation (the icons were adjacent in the interface). Before they could close it, the assistant displayed a welcome message that included: 'Welcome back! Need more social media ideas that will embarrass you in front of clients? I'm here to help!' This appeared to be referencing their previous negative interactions.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 4100,
+          "end_ms_since": 32600,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Immediate Account Settings Access",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:35.8",
+          "end": "00:38.2",
+          "details": "User immediately navigated to 'Account Settings' from the user dropdown menu in the top right corner. They bypassed any project work and went directly to the account management area.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 35800,
+          "end_ms_since": 38200,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Navigated to Subscription Management",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:40.5",
+          "end": "00:41.8",
+          "details": "User clicked on 'Subscription & Billing' in the settings sidebar. The page displayed their current Pro plan details, including the next billing date and monthly payment amount.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 40500,
+          "end_ms_since": 41800,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Cancel Subscription' Button",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:43.7",
+          "end": "00:43.7",
+          "details": "User scrolled to the bottom of the subscription page and clicked the 'Cancel Subscription' button, initiating the cancellation flow without exploring any other options.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 43700,
+          "end_ms_since": 43700,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Selected Cancellation Reason",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:48.2",
+          "end": "00:49.8",
+          "details": "In the cancellation modal, user clicked on the reason dropdown and selected 'Quality concerns' from the available options. This was done without hesitation, suggesting it clearly matched their primary reason for cancellation.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 48200,
+          "end_ms_since": 49800,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Provided Detailed AI Complaint",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "00:52.5",
+          "end": "02:18.7",
+          "details": "In the feedback text area, user wrote a detailed explanation: 'Your new AI assistant feature is completely unprofessional and potentially harmful to my business. Three separate times it has generated content with inappropriate comments, including insulting language that could damage my client relationships if accidentally shared. I reported this twice but the issue persists, and I can't even disable the feature. As a social media manager for multiple clients, I can't risk having a tool that might generate unprofessional content. This is a deal-breaker for me as it undermines trust in the entire platform.'",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 52500,
+          "end_ms_since": 138700,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Offered AI Removal Retention Option",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:22.3",
+          "end": "02:38.9",
+          "details": "Based on the feedback, the system displayed a retention offer: 'We sincerely apologize for your experience with our AI assistant. We can completely disable this feature on your account and provide a 50% discount for the next 3 months as compensation for the inconvenience. Our engineering team is actively addressing these issues.' Buttons included 'Accept Offer & Disable AI', 'Speak to a Manager', and 'Continue with Cancellation'.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 142300,
+          "end_ms_since": 158900,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Clicked 'Speak to a Manager'",
+        "date": "2025-01-12",
+        "status": "conversion_at_risk",
+        "recordingReel": {
+          "start": "02:42.5",
+          "end": "03:25.8",
+          "details": "User selected the 'Speak to a Manager' option, which opened a chat interface. A customer success manager joined the conversation and apologized for the AI issues. They explained that they were having significant problems with their recently launched AI feature and were working on fixes. The manager offered to completely remove the feature from the user's account and provide a 75% discount for 3 months as compensation.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 162500,
+          "end_ms_since": 205800,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Rejected Manager's Offer",
+        "date": "2025-01-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "03:28.4",
+          "end": "04:02.1",
+          "details": "User responded to the manager's offer: 'I appreciate the offer, but trust has been broken. I manage social media for professional clients and cannot risk using a tool that might generate inappropriate content, even accidentally. I've already started setting up an account with [Competitor] and will be migrating my projects this week. Thank you for understanding.' User then clicked 'Continue with Cancellation'.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 208400,
+          "end_ms_since": 242100,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Cancellation Confirmed",
+        "date": "2025-01-12",
+        "status": "churned",
+        "recordingReel": {
+          "start": "04:05.3",
+          "end": "04:10.7",
+          "details": "System displayed a confirmation message: 'Your Pro subscription has been cancelled. You will continue to have access to Pro features until the end of your current billing period.' User clicked 'Close' to dismiss the notification.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 245300,
+          "end_ms_since": 250700,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      },
+      {
+        "label": "Data Export and Account Migration",
+        "date": "2025-01-13",
+        "status": "churned",
+        "recordingReel": {
+          "start": "00:00.0",
+          "end": "00:00.0",
+          "details": "The following day, user logged in one final time and used the data export feature to download all their projects and content. Analytics showed they completed setting up their account on the competitor platform and did not return to the original service after the export was complete.",
+          "filename": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries.json",
+          "start_ms_since": 0,
+          "end_ms_since": 0,
+          "recording_id": "export-5327o3p4-qr05-38st-71uv-6w10xy49za6b.ph-recording-chunk-summaries"
+        }
+      }
+    ],
+    "usage_metadata": {
+      "input_tokens": 28157,
+      "output_tokens": 5328,
+      "total_tokens": 33485
+    },
+    "_order": 2
+  }
+}
