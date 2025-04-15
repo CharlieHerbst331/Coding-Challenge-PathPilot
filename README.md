@@ -9,7 +9,7 @@ PathPilot is a web application that analyzes user journey data to identify patte
    ```
    ./start.sh
    ```
-3. Open your browser and navigate to: http://localhost:5000
+3. Open your browser and navigate to the associated localhost
 
 ## Features
 
