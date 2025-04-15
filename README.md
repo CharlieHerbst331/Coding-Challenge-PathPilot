@@ -27,8 +27,8 @@
 ### Flask Application (`app/`)
 - `__init__.py` - Initializes the Flask application
 - `routes.py` - Defines all routes and API endpoints
-- `templates/` (not shown) - Contains HTML templates for the frontend
-- `static/` (not shown) - Contains JavaScript, CSS, and other static assets
+- `templates/` - Contains HTML templates for the frontend
+- `static/`  - Contains JavaScript, CSS, and other static assets
 
 ### Utility Modules (`app/utils/`)
 - `__init__.py` - Empty file marking utils as a Python package
